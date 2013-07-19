@@ -1,0 +1,421 @@
+\documentclass[12pt,a5paper]{memoir}
+\usepackage[english, latin]{babel}
+\usepackage{fontspec}
+\setmainfont{EB Garamond}
+\newfontface{\vectis}{Vectis Bold}
+\usepackage{gregoriotex}
+\usepackage[cm]{fullpage}
+\usepackage{parallel}
+\usepackage{multicol}
+
+%%%%%%% er....... yeah. used in \psalmverse to introduce small v space between verses.
+\newdimen\temp 
+\def\twocolspace#1{%
+\temp=#1%
+\advance\temp by 1mm%
+%\twoCols{\ \vspace{\temp}}{\ \vspace{\temp}}%
+\vspace*{\temp}\twoCols{\ }{\ }%
+\kern -1mm%
+\relax %
+}\newcommand{\twoCols}[2]{{\selectlanguage{latin}\ParallelLText{#1}}\selectlanguage{english}\ParallelRText{#2}\ParallelPar}
+\newcommand{\psalmverse}[2]{{{\selectlanguage{latin}\ParallelLText{#1}}\selectlanguage{english}\ParallelRText{#2}\ParallelPar}\twocolspace{-2.9mm}}%%-3.4mm
+\newcommand{\psalmverselast}[2]{{{\selectlanguage{latin}\ParallelLText{#1}}\selectlanguage{english}\ParallelRText{#2}\ParallelPar}}%%-3.4mm
+
+\newcommand{\rubrics}[1]{\noindent\textit{#1}}
+
+\begin{document}
+\parindent=.7em %%consider changing 
+%
+\setgrefactor{14}
+
+\ 
+
+\vskip1in
+
+\begin{centering}
+
+\HUGE \vectis Compline 
+
+\bigskip
+
+\large from the 
+
+\LARGE Little Office
+
+\bigskip
+
+
+\large of the 
+
+\LARGE Blessed Virgin Mary.
+
+\newpage
+
+\ 
+
+\vfill
+
+\normalsize \normalfont 2012 Veronica Brandt www.brandt.id.au
+
+\newpage
+
+\Huge \vectis Compline \large from the Little Office of the Blessed Virgin Mary
+
+\end{centering}
+
+\rubrics{Making a sign of the cross with the thumb over the heart:}
+
+
+\includescore{converte.tex}
+
+\includescore{etaverte.tex}
+
+%\begin{Parallel}[v]{0.47\textwidth}{0.47\textwidth}
+%\twoCols{\Vbar.\ Convérte \grecross\ nos, Deus, salutáris noster.}{\Vbar.\ Convert \grecross\ us, O God, our Saviour.}
+%\twoCols{\Rbar.\ Et avérte iram tuam a nobis.}{\Rbar.\ And turn away thy wrath from us.}
+%\end{Parallel}
+
+\noindent \Vbar.\ Convert us, O God, our Saviour.
+\Rbar.\ And turn away thy wrath from us.
+
+\rubrics{Making the sign of the cross:}
+
+\includescore{deusinadj}
+
+\Vbar.\ O God, come to my assistance.
+\Rbar.\ O Lord, make haste to help me.
+Glory be\ldots
+
+\section*{Psalmody}
+
+\rubrics{Usually sit at the first asterisk for each psalm, rise at the asterisk for the last verse of the psalm ready to bow for the \emph{Gloria Patri}, upright for \emph{Sicut erat}, then remain standing until the first asterisk of the next psalm.}
+
+\subsection*{Psalm 128}
+
+\includescore{psalm128v1.tex}
+
+\begin{Parallel}[v]{0.47\textwidth}{0.47\textwidth}
+\input psalm128vv.tex
+\end{Parallel}
+
+\subsection*{Psalm 129}
+
+\includescore{psalm129v1.tex}
+
+\begin{Parallel}[v]{0.47\textwidth}{0.47\textwidth}
+\input psalm129vv.tex
+\end{Parallel}
+
+
+\subsection*{Psalm 130}
+
+\includescore{psalm130v1.tex}
+
+\begin{Parallel}[v]{0.47\textwidth}{0.47\textwidth}
+\input psalm130vv.tex
+\end{Parallel}
+
+
+
+\subsection{Hymn}
+
+\gresetfirstlineaboveinitial{2}{2}
+\includescore{memento}
+
+\begin{multicols}{2}
+
+\noindent 1.\ Remember, O creator Lord,\\
+That in the Virgin's sacred womb\\
+Thou wast conceived, and of her flesh\\
+Didst our mortality assume.
+
+\smallskip 
+
+\noindent 2.\ Mother of grace, O Mary blest,\\
+To thee, sweet fount of love, we fly;\\
+Shield us through life, and take us hence\\
+To thy dear bosom when we die.
+
+\smallskip
+
+\noindent 3.\ O Jesu, born of Virgin bright,\\
+Immortal glory be to thee;\\
+Praise to the Father infinite,\\
+And Holy Ghost eternally. Amen.
+
+\end{multicols}
+
+\subsection{Little Chapter}
+
+\rubrics{Outside Advent:}
+
+\begin{Parallel}[v]{0.47\textwidth}{0.47\textwidth}
+\twoCols{Ego mater pulchrae dilectionis, et timoris, et agnitionis, et sanctae spei.}{I am the mother of fair love, and of fear, and of knowledge and of holy hope.}
+\twoCols{\Rbar. Deo gratias.}{Thanks be to God.}
+\twoCols{\Vbar. Ora pro nobis, sancta Dei Genitrix}{Pray for us, O Holy Mother of God.}
+\twoCols{\Rbar. Ut digni efficiamur promssionibus Christi}{That we may be made worthy of the promises of Christ}
+\end{Parallel}
+
+\bigskip
+
+\rubrics{In Advent:}
+
+\begin{Parallel}[v]{0.47\textwidth}{0.47\textwidth}
+\twoCols{Ecce Virgo concipiet, et pariet filium, et vocabitur nomen ejus Emmanuel. Butyrum et mel comedet, ut sciat reprobare malum, et eligere bonum.}{Behold, a Virgin shall conceive and bear a son, and his name shall be called Emmanuel.  Butter and honey shall he eat, that he may know to refuse the evil, and choose the good.}
+\twoCols{\Rbar. Deo gratias.}{Thanks be to God.}
+\twoCols{\Vbar. Angelus Domini nuntiavit Mariae.}{The angel of the Lord declared unto Mary.}
+\twoCols{\Rbar. Et concepit de Spiritu Sancto.}{And she conceived by the Holy Spirit.}
+\end{Parallel}
+
+
+\section*{Canticle}
+
+\subsection*{During the year:}
+
+\gresetfirstlineaboveinitial{7}{7}
+\includescore{subtuum}
+
+We take refuge * under thy protection, O holy Mother of God! Despise not our supplications in our need, but deliver us alway from all dangers, O Virgin, glorious and blessed!
+
+
+\includescore{nuncdimittis7a}
+
+Now thou dost dismiss thy servant, O Lord, * according to thy word in peace;
+
+Because my eyes have seen * thy salvation,
+
+Which thou hast prepared * before the face of all peoples:
+
+A light to the revelation of the Gentiles, * and the glory of thy people Israel.
+
+V. Glory be to the Father, and to the Son, * and to the Holy Ghost.
+
+R. As it was in the beginning, is now, * and ever shall be, world without end. Amen.
+
+
+\rubrics{Repeat the antiphon \emph{Sub tuum} all together.}
+
+\rubrics{Now go to the collect on page~\pageref{collect}.}
+
+\subsection*{In Advent:}
+
+\gresetfirstlineaboveinitial{8}{8}
+\includescore{spiritussanctus}
+
+The Holy Spirit shall descend upon thee O Mary: fear not, thou shalt have in thy womb the Son of God, alleluia.
+
+\includescore{nuncdimittis8G}
+
+\rubrics{Repeat the antiphon \emph{Spiritus sanctus} all together.}
+
+\rubrics{Now go to the collect on page~\pageref{collect}.}
+
+
+\subsection*{In Christmas:}
+
+\gresetfirstlineaboveinitial{2}{2}
+\includescore{magnum}
+
+A great mystery of heritage, the womb that never knew man, is made the temple of the holy Ghost: he is not polluted by taking flesh of her: all nations shall come, saying: glory be to thee o Lord.
+
+\includescore{nuncdimittis2A}
+
+\rubrics{Repeat the antiphon \emph{Magnum haereditatis mysterium} all together.}
+
+\rubrics{Now go to the collect on page~\pageref{collect}.}
+
+
+
+\subsection*{In Easter:}
+
+\gresetfirstlineaboveinitial{1}{1}
+\includescore{reginacaeliAlt}
+
+O Queen of heaven, rejoice, alleluia.  For He whom thou didst merit to bear, alleluia.  Is risen as He said, alleluia.  Pray for us to God, alleluia.
+
+\includescore{nuncdimittis1D2}
+
+\rubrics{Repeat the antiphon \emph{Regina caeli} all together.}
+
+
+\section*{Collect}
+\label{collect}
+
+\begin{Parallel}[v]{0.47\textwidth}{0.47\textwidth}
+\twoCols{\Vbar.\ Dómine exáudi oratiónem meam.}{O Lord, hear my prayer.}
+\twoCols{\Rbar.\ Et clamor meus ad te véniat.}{And let my cry come unto thee}
+\twoCols{Orémus.}{Let us pray.}
+
+\bigskip
+
+\rubrics{Outside Advent:}
+
+\twoCols{Beátae et gloriásae semper Vírginis Maríae, quaésumus Dómine, intercéssio gloriósa nos prótegat, et ad vitam perdúcat aetérnam.
+Per Dóminum nostrum Iesum Christum, Filium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.}
+{Lord pray thee, that the glorious intercession of Mary, blessed, and glorious, and everlastingly Virgin, may shield us and bring us on toward eternal life.
+Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, ever one God, world without end.}
+\twoCols{\Rbar.\ Amen.}{Amen.}
+
+\bigskip
+
+\rubrics{In Advent:}
+
+\twoCols{Deus, qui de beatae Mariae Virginis utero, Verbum tuum, Angelo nuntiante, carnem suscipere voluisti: praesta supplicibus tuis; ut, qui vere eam Genetricem Dei credimus, eius apud te intercessionibus adiuvemur. Per  eumdem Dominum nostrum Iesum Christum, Filium tuum, qui tecum vivit et regnat in unitate Spiritus Sancti Deus, per omnia saecula saeculorum.}{O God, who didst please that Thy Word should take flesh at the message of an Angel in the womb of the Blessed Virgin Mary, grant to us Thy suppliants, that we, who believe her to be truly the Mother of God, may be helped by her intercession with Thee. Through the same our Lord Jesus Christ, Thy Son, who liveth and reigneth with Thee in the unity of the Holy Ghost, God, world without end.}
+\twoCols{\Rbar.\ Amen.}{Amen.}
+\end{Parallel}
+
+\bigskip
+
+\rubrics{Ending with:}
+
+\begin{Parallel}[v]{0.47\textwidth}{0.47\textwidth}
+\twoCols{\Vbar.\ Dómine exáudi oratiónem meam.}{O Lord, hear my prayer.}
+\twoCols{\Rbar.\ Et clamor meus ad te véniat.}{And let my cry come unto thee}
+\twoCols{\Vbar.\ Benedicámus Dómino.}{Let us bless the Lord.}
+\twoCols{\Rbar.\ Deo grátias.}{Thanks be to God.}
+\twoCols{Benedicat et custodiat nos omnipotens et misericors Dominus, Pater, \grecross\ et Filius et Spiritus Sanctus.}{May the almighty and merciful Lord bless us, Father, Son and Holy Ghost.}
+\twoCols{\Rbar.\ Amen.}{Amen.}
+\end{Parallel}
+
+\rubrics{Then the appropriate Marian Antiphon is sung.}
+
+\section*{Marian Antiphons}
+
+\commentary{{\small \emph{From Vespers of Saturday before the First Sunday in Advent }}}	
+\commentary{{\small \emph{until the 1st of February inclusive.}}}
+
+\rubrics{Solemn Tone:}
+
+\gresetfirstlineaboveinitial{5}{5}
+\includescore{almaredemptoris_solemn}
+
+\rubrics{Simple Tone:}
+
+\gresetfirstlineaboveinitial{5}{5}
+\includescore{almaredemptoris}
+
+\rubrics{In Advent :}
+
+\begin{Parallel}[v]{0.47\textwidth}{0.47\textwidth}
+\twoCols{\Vbar. Angelus D\'omini nunti\'avit Mar\'\i \ae .}{The angel of the Lord declared unto Mary.}
+\twoCols{\Rbar. Et conc\'epit de Sp\'\i ritu Sancto.}{And she conceived by the Holy Spirit.}
+\twoCols{Or\'emus.}{Let us pray.}
+\twoCols{Gr\'atiam tuam, qu\'\ae sumus D\'omine, m\'entibus nostris inf\'unde : \dag \ ut qui, Angelo nunti\'ante, Christi F\'\i lii tui Incarnati\'onem cogn\'ovimus, * per passi\'onem ejus et crucem ad resurrecti\'onis gl\'oriam perduc\'amur.  Per \'eumdem Christum D\'ominum nostrum. \Rbar. Amen.}{Pour forth, we beseech thee, O Lord, thy grace into our hearts, that we to whom the incarnation of Christ thy Son was made known by the message of an angel, may by his Passion and Cross be brought to the glory of his resurrection.  Through the same Christ our Lord.  Amen.}
+\end{Parallel}
+
+
+\rubrics{From the first Vespers of Christmas onwards :}
+
+\begin{Parallel}[v]{0.47\textwidth}{0.47\textwidth}
+\twoCols{\Vbar. Post partum Virgo inviol\'ata permans\'\i sti.}{After childbirth, O Virgin, thou didst remain inviolate.}
+\twoCols{\Rbar. Dei G\'enitrix, interc\'ede pro nobis.}{O Mother of God, plead for us.}
+\twoCols{Or\'emus.}{Let us pray.}
+\twoCols{Deus, qui salutis \ae t\'ern\ae , be\'atae \ Mar\'\i \ae \ virginit\'ate fec\'unda, hum\'ano g\'eneri pr\'\ae mia pr\ae stit\'\i sti : \dag \ tr\'\i bue, qu\'\ae sumus; ut ipsam pro nobis interc\'edere senti\'amus, * per quam mer\'uimus auct\'orem vit\ae \ susc\'\i pere, D\'ominum nostrum Jesum Christum F\'\i lium tuum. \Rbar. Amen}{O God, Who by the fruitful virginity of blessed Mary, hast given to mankind the rewards of eternal salvation: grant, we beseech You, that we may experience her intercession for us, by whom we deserved to receive the Author of life, our Lord Jesus Christ, Your Son. Amen.}
+\end{Parallel}
+
+\begin{Parallel}[v]{0.47\textwidth}{0.47\textwidth}
+\twoCols{\Vbar.\ Divínum auxílium máneat semper nobíscum.}{May the divine assistance remain always with us.}
+\twoCols{\Rbar.\ Amen.}{Amen.}
+\end{Parallel}
+
+
+\bigskip
+
+\commentary{{\small \emph{From 2nd February to Wed of Holy Week.}}}
+\rubrics{Solemn Tone:}
+
+\gresetfirstlineaboveinitial{6}{6}
+\includescore{averegina_solemn}
+
+\rubrics{Simple Tone:}
+
+\gresetfirstlineaboveinitial{6}{6}
+\includescore{averegina}
+
+\begin{Parallel}[v]{0.47\textwidth}{0.47\textwidth}
+\twoCols{\Vbar. Dign\'are me laud\'are te, Virgo sacr\'ata.}{Vouchsafe that I may praise thee, O sacred Virgin.}
+\twoCols{\Rbar. Da mihi virt\'utem contra hostes tuos.}{Give me strength against thine enemies.}
+\twoCols{Or\'emus}{Let us pray.}
+\twoCols{Conc\'ede, mis\'ericors Deus, fragilit\'ati nostr\ae \ pr\ae \-s\'\i \-dium : \dag \ 
+ut qui sanct\ae \ Dei Genitr\'\i cis mem\'oriam \'agimus, * 
+intercessi\'onis ejus aux\'\i lio, a nostris iniqui\-t\'a\-tibus resurg\'amus.
+Per e\'umdem Christum D\'ominum nostrum.
+\Rbar. Amen}{We beseech thee, O Lord, mercifully to assist our infirmity: that like as we do now commemorate Blessed Mary Ever-Virgin, Mother of God; so by the help of her intercession we may die to our former sins and rise again to newness of life. Through the same Christ our Lord. Amen.}
+\end{Parallel}
+
+\begin{Parallel}[v]{0.47\textwidth}{0.47\textwidth}
+\twoCols{\Vbar.\ Divínum auxílium máneat semper nobíscum.}{May the divine assistance remain always with us.}
+\twoCols{\Rbar.\ Amen.}{Amen.}
+\end{Parallel}
+
+
+\bigskip
+
+
+\commentary{{\small \emph{From Easter Sunday through Friday }}}	
+\commentary{{\small \emph{in the octave of Pentecost inclusive.}}}
+\rubrics{Solemn Tone:}
+
+\gresetfirstlineaboveinitial{6}{6}
+\includescore{reginacaeli_solemn}
+
+\rubrics{Simple Tone:}
+
+\gresetfirstlineaboveinitial{6}{6}
+\includescore{reginacaeli}
+
+\begin{Parallel}[v]{0.47\textwidth}{0.47\textwidth}
+\twoCols{\Vbar.\ Gaude et l\ae t\'are Virgo Mar\'\i a, allel\'uia.}{Rejoice and be glad O Virgin Mary, alleluia.}
+\twoCols{\Rbar.\ Quia surr\'exit D\'ominus vere, allel\'uia.}{For the Lord has risen indeed, alleluia.}
+\twoCols{Or\'emus.}{Let us pray.}
+\twoCols{Deus, qui per resurrecti\'onem F\'\i lii tui D\'omini
+ nostri Jesu Christi mundum l\ae tific\'are dignatus es : \dag \ 
+pr\ae sta, qu\ae sumus; ut per ejus Genitr\'\i cem 
+V\'\i rginem Mar\'\i am, * perp\'etu\ae \ cap\'\i amus
+ g\'audia vit\ae . Per e\'umdem Christum D\'ominum nostrum. \Rbar.~Amen.}{O God, who through the resurrection of Thy Son our Lord Jesus Christ
+didst vouchsafe to give joy to the world:
+grant, we beseech thee, that through His Mother, the Virgin Mary,
+we may obtain the joys of everlasting life.
+Through Christ our Lord. Amen.}
+\end{Parallel}
+
+\begin{Parallel}[v]{0.47\textwidth}{0.47\textwidth}
+\twoCols{\Vbar.\ Divínum auxílium máneat semper nobíscum.}{May the divine assistance remain always with us.}
+\twoCols{\Rbar.\ Amen.}{Amen.}
+\end{Parallel}
+
+
+\bigskip
+
+
+\commentary{{\small \emph{From Saturday after the Octave of Pentecost through }}}	
+\commentary{{\small \emph{Friday before the first Saturday of Advent inclusive.}}}
+\rubrics{Solemn Tone:}
+
+\gresetfirstlineaboveinitial{1}{1}
+\includescore{salveregina_solemn}
+
+\rubrics{Simple Tone:}
+
+\gresetfirstlineaboveinitial{5}{5}
+\includescore{salveregina}
+
+\begin{Parallel}[v]{0.47\textwidth}{0.47\textwidth}
+\twoCols{\Vbar.\ Ora pro nobis sancta Dei Génitrix.}{Pray for us, O holy Mother of God.}
+\twoCols{\Rbar.\ Ut digni efficiámur promissiónibus Christi.}{That we may be made worthy of the promises of Christ.}
+\twoCols{Or\'emus.}{Let us pray.}
+\twoCols{Omn\'\i potens sempit\'erne Deus, qui glori\'osae V\'\i rginis Matris Mar\'\i {\ae}
+corpus et \'animam, ut dignum F\'\i lii tui habit\'aculum \'effici merer\'etur,
+Sp\'\i ritu Sancto cooper\'ante pr{\ae}par\'asti : \dag \  da, ut cujus 
+commemorati\'one l{\ae}t\'amur, * ejus pia intercessi\'one ab
+inst\'antibus malis et a mortis perp\'etua liber\'emur.
+Per e\'umdem Christum D\'ominum nostrum. \Rbar. Amen.}{Almighty, everlasting God, who by the co-operation of the Holy Spirit didst prepare the body and soul of the glorious Virgin-Mother Mary to become a dwelling-place meet for thy Son: grant that as we rejoice in her commemoration; so by her fervent intercession we may be delivered from present evils and from everlasting death. Through the same Christ our Lord. Amen.}
+\end{Parallel}
+
+
+\begin{Parallel}[v]{0.47\textwidth}{0.47\textwidth}
+\twoCols{\Vbar.\ Divínum auxílium máneat semper nobíscum.}{May the divine assistance remain always with us.}
+\twoCols{\Rbar.\ Amen.}{Amen.}
+\end{Parallel}
+
+\end{document}

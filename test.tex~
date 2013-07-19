@@ -1,0 +1,27 @@
+\documentclass[a5paper, 12pt]{article}
+\usepackage{gregoriotex}
+\usepackage{fontspec}
+\defaultfontfeatures{Ligatures=TeX}
+%\setsansfont{Quercus}
+\setmainfont{Norlik}
+%\fontspec[AutoFakeBold=1.5]{Norlik}
+%
+
+\begin{document}
+
+
+This is the regular text and \textbf{This is the bold text}
+
+\textbf{Bold} Not Bold \textbf{Bold} Not Bold
+
+\fontspec[FakeBold=9]{Norlik}
+How about htis then??
+
+\fontspec[FakeSlant]{Norlik}
+Any other fakes work?
+
+\fontspec[FakeStretch]{Norlik}
+Stretching f'rinstance
+
+\end{document}
+

@@ -1,0 +1,1863 @@
+This is LuaTeX, Version beta-0.70.2-2012070301 (TeX Live 2012/Debian) (format=lualatex 2012.8.22)  16 OCT 2012 07:16
+ restricted \write18 enabled.
+**compline
+(./compline.tex
+LaTeX2e <2011/06/27>
+LuaTeX adaptation of babel <v3.8m-luatex-1.5> and hyphenation patterns for engl
+ish, dumylang, nohyphenation, latin, loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/memoir/memoir.cls
+Document Class: memoir 2011/03/06 v3.6j configurable book, report, article docu
+ment class
+\onelineskip=\skip41
+\lxvchars=\skip42
+\xlvchars=\skip43
+\@memcnta=\count79
+\c@@memmarkcntra=\count80
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Class memoir Info: An `ifetex' package is being emulated on input line 251.
+
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX detected.
+)
+\stockheight=\skip44
+\stockwidth=\skip45
+\trimtop=\skip46
+\trimedge=\skip47
+
+(/usr/share/texlive/texmf-dist/tex/latex/etex-pkg/etex.sty
+Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
+\et@xins=\count81
+)
+(/usr/share/texlive/texmf-dist/tex/latex/memoir/mem12.clo
+File: mem12.clo 2010/10/19 v0.4b memoir class 12pt size option
+)
+\binding=\skip48
+\spinemargin=\skip49
+\foremargin=\skip50
+\uppermargin=\skip51
+\lowermargin=\skip52
+\headdrop=\skip53
+\normalrulethickness=\skip54
+\mem@maxheadheight=\skip55
+\mem@maxfootheight=\skip56
+\headwidth=\skip57
+\c@storedpagenumber=\count82
+\memPD=\dimen102
+\m@mabparskip=\skip58
+\thanksmarkwidth=\skip59
+\thanksmarksep=\skip60
+\droptitle=\skip61
+\c@book=\count83
+\c@part=\count84
+\c@chapter=\count85
+\c@section=\count86
+\c@subsection=\count87
+\c@subsubsection=\count88
+\c@paragraph=\count89
+\c@subparagraph=\count90
+\beforechapskip=\skip62
+\midchapskip=\skip63
+\afterchapskip=\skip64
+\chapindent=\skip65
+\bottomsectionskip=\skip66
+\secindent=\skip67
+\beforesecskip=\skip68
+\aftersecskip=\skip69
+\subsecindent=\skip70
+\beforesubsecskip=\skip71
+\aftersubsecskip=\skip72
+\subsubsecindent=\skip73
+\beforesubsubsecskip=\skip74
+\aftersubsubsecskip=\skip75
+\paraindent=\skip76
+\beforeparaskip=\skip77
+\afterparaskip=\skip78
+\subparaindent=\skip79
+\beforesubparaskip=\skip80
+\aftersubparaskip=\skip81
+\pfbreakskip=\skip82
+\c@@ppsavesec=\count91
+\c@@ppsaveapp=\count92
+\ragrparindent=\dimen103
+\everylistparindent=\dimen104
+\parsepi=\skip83
+\topsepi=\skip84
+\itemsepi=\skip85
+\parsepii=\skip86
+\topsepii=\skip87
+\topsepiii=\skip88
+\itemsepii=\skip89
+\itemsepiii=\skip90
+\partopsepii=\skip91
+\partopsepiii=\skip92
+\m@msavetopsep=\skip93
+\m@msavepartopsep=\skip94
+\@enLab=\toks14
+\abstitleskip=\skip95
+\absleftindent=\skip96
+\abs@leftindent=\dimen105
+\absrightindent=\skip97
+\absparindent=\skip98
+\absparsep=\skip99
+\c@vslineno=\count93
+\c@poemline=\count94
+\c@modulo@vs=\count95
+\c@memfvsline=\count96
+\vleftskip=\skip100
+\vrightskip=\skip101
+\stanzaskip=\skip102
+\versewidth=\skip103
+\vgap=\skip104
+\vindent=\skip105
+\vleftmargin=\dimen106
+\c@verse=\count97
+\c@chrsinstr=\count98
+\beforepoemtitleskip=\skip106
+\afterpoemtitleskip=\skip107
+\c@poem=\count99
+\beforePoemTitleskip=\skip108
+\midPoemTitleskip=\skip109
+\afterPoemTitleskip=\skip110
+\col@sep=\dimen107
+\extrarowheight=\dimen108
+\NC@list=\toks15
+\extratabsurround=\skip111
+\backup@length=\skip112
+\TX@col@width=\dimen109
+\TX@old@table=\dimen110
+\TX@old@col=\dimen111
+\TX@target=\dimen112
+\TX@delta=\dimen113
+\TX@cols=\count100
+\TX@ftn=\toks16
+\heavyrulewidth=\dimen114
+\lightrulewidth=\dimen115
+\cmidrulewidth=\dimen116
+\belowrulesep=\dimen117
+\belowbottomsep=\dimen118
+\aboverulesep=\dimen119
+\abovetopsep=\dimen120
+\cmidrulesep=\dimen121
+\cmidrulekern=\dimen122
+\defaultaddspace=\dimen123
+\@cmidla=\count101
+\@cmidlb=\count102
+\@aboverulesep=\dimen124
+\@belowrulesep=\dimen125
+\@thisruleclass=\count103
+\@lastruleclass=\count104
+\@thisrulewidth=\dimen126
+\ctableftskip=\skip113
+\ctabrightskip=\skip114
+\abovecolumnspenalty=\count105
+\@linestogo=\count106
+\@cellstogo=\count107
+\@cellsincolumn=\count108
+\crtok=\toks17
+\@mincolumnwidth=\dimen127
+\c@newflo@tctr=\count109
+\mem@margin@floatbox=\box26
+\@contcwidth=\skip115
+\@contindw=\skip116
+\abovecaptionskip=\skip117
+\belowcaptionskip=\skip118
+\subfloattopskip=\skip119
+\subfloatcapskip=\skip120
+\subfloatcaptopadj=\skip121
+\subfloatbottomskip=\skip122
+\subfloatlabelskip=\skip123
+\subfloatcapmargin=\dimen128
+\c@@contsubnum=\count110
+\m@mscap@capbox=\box27
+\m@mscap@fbox=\box28
+\sidecapsep=\dimen129
+\sidecapwidth=\dimen130
+\m@m@tempdima=\dimen131
+\m@mscapraise=\dimen132
+\sidecapraise=\dimen133
+\m@mscapmainwidth=\dimen134
+\m@mscaplkern=\dimen135
+\beforeepigraphskip=\skip124
+\afterepigraphskip=\skip125
+\epigraphwidth=\skip126
+\epigraphrule=\skip127
+LaTeX Info: Redefining \em on input line 7377.
+LaTeX Info: Redefining \emph on input line 7385.
+\tocentryskip=\skip128
+\tocbaseline=\skip129
+\cftparskip=\skip130
+\cftbeforebookskip=\skip131
+\cftbookindent=\dimen136
+\cftbooknumwidth=\dimen137
+\cftbeforepartskip=\skip132
+\cftpartindent=\skip133
+\cftpartnumwidth=\skip134
+\cftbeforechapterskip=\skip135
+\cftchapterindent=\skip136
+\cftchapternumwidth=\skip137
+\cftbeforesectionskip=\skip138
+\cftsectionindent=\skip139
+\cftsectionnumwidth=\skip140
+\cftbeforesubsectionskip=\skip141
+\cftsubsectionindent=\skip142
+\cftsubsectionnumwidth=\skip143
+\cftbeforesubsubsectionskip=\skip144
+\cftsubsubsectionindent=\skip145
+\cftsubsubsectionnumwidth=\skip146
+\cftbeforeparagraphskip=\skip147
+\cftparagraphindent=\skip148
+\cftparagraphnumwidth=\skip149
+\cftbeforesubparagraphskip=\skip150
+\cftsubparagraphindent=\skip151
+\cftsubparagraphnumwidth=\skip152
+\prechapterprecisshift=\dimen138
+\c@maxsecnumdepth=\count111
+\bibindent=\dimen139
+\bibitemsep=\skip153
+\indexcolsep=\skip154
+\indexrule=\skip155
+\indexmarkstyle=\toks18
+\@indexbox=\insert233
+\glossarycolsep=\dimen140
+\glossaryrule=\dimen141
+\sideparvshift=\skip156
+\sideins=\insert232
+\sidebartopsep=\skip157
+\sidebarhsep=\skip158
+\sidebarvsep=\skip159
+\sidebarwidth=\skip160
+\footmarkwidth=\skip161
+\footmarksep=\skip162
+\footparindent=\skip163
+\footinsdim=\skip164
+\footinsv@r=\insert231
+\@mpfootinsv@r=\insert230
+\m@m@k=\count112
+\m@m@h=\dimen142
+\m@mipn@skip=\skip165
+\sidefootins=\insert229
+\sidefootadjust=\skip166
+\sidefootheight=\skip167
+\sidefoothsep=\skip168
+\sidefootvsep=\skip169
+\sidefootwidth=\skip170
+\m@mdownsf=\skip171
+\c@sidefootnote=\count113
+\sidefootmarkwidth=\skip172
+\sidefootmarksep=\skip173
+\sidefootparindent=\skip174
+\c@pagenote=\count114
+\c@pagenoteshadow=\count115
+\mem@pn@lastkern=\skip175
+\every@verbatim=\toks19
+\afterevery@verbatim=\toks20
+\verbatim@line=\toks21
+\tab@position=\count116
+\verbatim@in@stream=\read1
+\verbatimindent=\skip176
+\verbatim@out=\write3
+\bvboxsep=\skip177
+\c@memfbvline=\count117
+\c@bvlinectr=\count118
+\bvnumlength=\skip178
+\fb@frw=\dimen143
+\fb@frh=\dimen144
+\FrameRule=\dimen145
+\FrameSep=\dimen146
+\c@cp@cntr=\count119
+LaTeX Info: Redefining \: on input line 11807.
+LaTeX Info: Redefining \! on input line 11809.
+\c@ism@mctr=\count120
+\c@xsm@mctr=\count121
+\c@csm@mctr=\count122
+\c@ksm@mctr=\count123
+\c@xksm@mctr=\count124
+\c@cksm@mctr=\count125
+\c@msm@mctr=\count126
+\c@xmsm@mctr=\count127
+\c@cmsm@mctr=\count128
+\c@bsm@mctr=\count129
+\c@workm@mctr=\count130
+\c@sheetsequence=\count131
+\c@lastsheet=\count132
+\c@lastpage=\count133
+\c@figure=\count134
+\c@lofdepth=\count135
+\cftbeforefigureskip=\skip179
+\cftfigureindent=\skip180
+\cftfigurenumwidth=\skip181
+\c@table=\count136
+\c@lotdepth=\count137
+\cftbeforetableskip=\skip182
+\cfttableindent=\skip183
+\cfttablenumwidth=\skip184
+Package abstract [2008/07/23] emulated by memoir.
+Package appendix [2008/07/23] emulated by memoir.
+Package array [2008/07/23] emulated by memoir.
+Package booktabs [2008/07/23] emulated by memoir.
+Package ccaption [2008/07/23] emulated by memoir.
+Package changepage [2008/07/23] emulated by memoir.
+Package chngcntr [2008/07/23] emulated by memoir.
+Package chngpage [2008/07/23] emulated by memoir.
+Package crop emulated by memoir.
+Package dcolumn [2008/07/23] emulated by memoir.
+Package delarray [2008/07/23] emulated by memoir.
+Package enumerate [2008/07/23] emulated by memoir.
+Package epigraph [2008/07/23] emulated by memoir.
+Package ifmtarg [2008/07/23] emulated by memoir.
+Package ifetex [2008/07/23] emulated by memoir.
+Package index [2008/07/23] emulated by memoir.
+Package makeidx [2008/07/23] emulated by memoir.
+Package moreverb [2008/07/23] emulated by memoir.
+Package mparhack [2008/07/23] emulated by memoir.
+Package needspace [2008/07/23] emulated by memoir.
+Package newfile [2008/07/23] emulated by memoir.
+Package nextpage [2008/07/23] emulated by memoir.
+Package pagenote [2008/07/23] emulated by memoir.
+Package parskip [2008/07/23] emulated by memoir.
+Package patchcmd [2008/07/23] emulated by memoir.
+Package setspace [2008/07/23] emulated by memoir.
+Package shortvrb [2008/07/23] emulated by memoir.
+Package showidx [2008/07/23] emulated by memoir.
+Package tabularx [2008/07/23] emulated by memoir.
+Package titleref [2008/07/23] emulated by memoir.
+Package titling [2008/07/23] emulated by memoir.
+Package tocbibind [2008/07/23] emulated by memoir.
+Package tocloft [2008/07/23] emulated by memoir.
+Package tocvsec2 [2008/07/23] emulated by memoir.
+Package verbatim [2008/07/23] emulated by memoir.
+Package verse [2008/07/23] emulated by memoir.
+
+(/usr/share/texlive/texmf-dist/tex/latex/memoir/mempatch.sty
+Package: mempatch 2009/07/24 v6.0f Patches for memoir class v1.6180339
+))
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2008/07/08 v3.8m The Babel package
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/english.ldf
+Language: english 2005/03/30 v3.3o English support from the babel system
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2008/07/08 v3.8m Babel common definitions
+\babel@savecnt=\count138
+\U@D=\dimen147
+)
+luatex-hyphen: using data file: /var/lib/texmf/tex/generic/config/language.dat.
+lua
+\l@british = a dialect from \language\l@english 
+\l@UKenglish = a dialect from \language\l@english 
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel/latin.ldf
+File: latin.ldf 2008/07/06 v2.0l Latin support from the babel system
+Package babel Info: Making " an active character on input line 188.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
+Package: fontspec 2012/05/06 v2.2b Advanced font selection for XeLaTeX/LuaLaTeX
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3names.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3bootstrap.sty
+Package: l3bootstrap 2011/12/29 v3110 L3 Experimental bootstrap code
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/luatex.sty
+Package: luatex 2010/03/09 v0.4 LuaTeX basic definition package (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+\LuT@AllocAttribute=\count277
+\LuT@AllocCatcodeTable=\count278
+\CatcodeTableStack=\count279
+\CatcodeTableIniTeX=\catcodetable1
+\CatcodeTableString=\catcodetable3
+\CatcodeTableOther=\catcodetable5
+\CatcodeTableLaTeX=\catcodetable7
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/luatex-loader.sty
+Package: luatex-loader 2010/03/09 v0.4 Lua module loader (HO)
+
+(/usr/share/texlive/texmf-dist/scripts/oberdiek/oberdiek.luatex.lua)))
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+\pdftexcmds@toks=\toks22
+))
+Package: l3names 2012/03/04 v3494 L3 Experimental namespace for primitives
+)
+Package: expl3 2012/04/23 v3570 L3 Experimental code bundle wrapper
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+\Gread@gobject=\count280
+))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3basics.sty
+Package: l3basics 2012/03/04 v3491 L3 Experimental basic definitions
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3expan.sty
+Package: l3expan 2012/02/26 v3460 L3 Experimental argument expansion
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3tl.sty
+Package: l3tl 2012/03/04 v3490 L3 Experimental token lists
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3seq.sty
+Package: l3seq 2012/03/04 v3490 L3 Experimental sequences and stacks
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3int.sty
+Package: l3int 2012/03/04 v3490 L3 Experimental integers
+\c_max_int=\count281
+\l_tmpa_int=\count282
+\l_tmpb_int=\count283
+\l_tmpc_int=\count284
+\g_tmpa_int=\count285
+\g_tmpb_int=\count286
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3quark.sty
+Package: l3quark 2012/02/12 v3384 L3 Experimental quarks
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3prg.sty
+Package: l3prg 2012/03/04 v3490 L3 Experimental control structures
+\g_prg_map_int=\count287
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3clist.sty
+Package: l3clist 2012/03/04 v3490 L3 Experimental comma separated lists
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3token.sty
+Package: l3token 2012/03/04 v3491 L3 Experimental token manipulation
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3prop.sty
+Package: l3prop 2012/03/04 v3490 L3 Experimental property lists
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3msg.sty
+Package: l3msg 2012/04/23 v3568 L3 Experimental messages
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3file.sty
+Package: l3file 2012/03/09 v3520 L3 Experimental file and I/O operations
+\l_iow_stream_int=\count288
+\l_iow_line_length_int=\count289
+\l_iow_target_length_int=\count290
+\l_iow_current_line_int=\count291
+\l_iow_current_word_int=\count292
+\l_iow_current_indentation_int=\count293
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3skip.sty
+Package: l3skip 2012/03/05 v3499 L3 Experimental dimensions and skips
+\l_tmpa_dim=\dimen256
+\l_tmpb_dim=\dimen257
+\l_tmpc_dim=\dimen258
+\g_tmpa_dim=\dimen259
+\g_tmpb_dim=\dimen260
+\l_tmpa_skip=\skip256
+\l_tmpb_skip=\skip257
+\l_tmpc_skip=\skip258
+\g_tmpa_skip=\skip259
+\g_tmpb_skip=\skip260
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3keys.sty
+Package: l3keys 2012/03/03 v3487 L3 Experimental key-value interfaces
+\g_keyval_level_int=\count294
+\l_keys_choice_int=\count295
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3fp.sty
+Package: l3fp 2012/03/04 v3490 L3 Experimental floating-point operations
+\c_one_hundred_million=\count296
+\c_five_hundred_million=\count297
+\c_one_thousand_million=\count298
+\c_fp_pi_by_four_decimal_int=\count299
+\c_fp_pi_by_four_extended_int=\count300
+\c_fp_pi_decimal_int=\count301
+\c_fp_pi_extended_int=\count302
+\c_fp_two_pi_decimal_int=\count303
+\c_fp_two_pi_extended_int=\count304
+\l_fp_count_int=\count305
+\l_fp_div_offset_int=\count306
+\l_fp_exp_integer_int=\count307
+\l_fp_exp_decimal_int=\count308
+\l_fp_exp_extended_int=\count309
+\l_fp_exp_exponent_int=\count310
+\l_fp_input_a_sign_int=\count311
+\l_fp_input_a_integer_int=\count312
+\l_fp_input_a_decimal_int=\count313
+\l_fp_input_a_exponent_int=\count314
+\l_fp_input_b_sign_int=\count315
+\l_fp_input_b_integer_int=\count316
+\l_fp_input_b_decimal_int=\count317
+\l_fp_input_b_exponent_int=\count318
+\l_fp_input_a_extended_int=\count319
+\l_fp_input_b_extended_int=\count320
+\l_fp_mul_a_i_int=\count321
+\l_fp_mul_a_ii_int=\count322
+\l_fp_mul_a_iii_int=\count323
+\l_fp_mul_a_iv_int=\count324
+\l_fp_mul_a_v_int=\count325
+\l_fp_mul_a_vi_int=\count326
+\l_fp_mul_b_i_int=\count327
+\l_fp_mul_b_ii_int=\count328
+\l_fp_mul_b_iii_int=\count329
+\l_fp_mul_b_iv_int=\count330
+\l_fp_mul_b_v_int=\count331
+\l_fp_mul_b_vi_int=\count332
+\l_fp_mul_output_int=\count333
+\l_fp_output_sign_int=\count334
+\l_fp_output_integer_int=\count335
+\l_fp_output_decimal_int=\count336
+\l_fp_output_exponent_int=\count337
+\l_fp_output_extended_int=\count338
+\l_fp_round_position_int=\count339
+\l_fp_round_target_int=\count340
+\l_fp_split_sign_int=\count341
+\l_fp_internal_int=\count342
+\l_fp_trig_octant_int=\count343
+\l_fp_trig_sign_int=\count344
+\l_fp_trig_decimal_int=\count345
+\l_fp_trig_extended_int=\count346
+\l_fp_internal_dim=\dimen261
+\l_fp_internal_skip=\skip261
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3box.sty
+Package: l3box 2012/03/04 v3490 L3 Experimental boxes
+\l_tmpb_box=\box256
+\l_box_top_dim=\dimen262
+\l_box_bottom_dim=\dimen263
+\l_box_left_dim=\dimen264
+\l_box_right_dim=\dimen265
+\l_box_top_new_dim=\dimen266
+\l_box_bottom_new_dim=\dimen267
+\l_box_left_new_dim=\dimen268
+\l_box_right_new_dim=\dimen269
+\l_box_internal_box=\box257
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3coffins.sty
+Package: l3coffins 2012/03/03 v3482 L3 Experimental coffin code layer
+\l_coffin_internal_box=\box258
+\l_coffin_internal_dim=\dimen270
+\l_coffin_offset_x_dim=\dimen271
+\l_coffin_offset_y_dim=\dimen272
+\l_coffin_x_dim=\dimen273
+\l_coffin_y_dim=\dimen274
+\l_coffin_x_prime_dim=\dimen275
+\l_coffin_y_prime_dim=\dimen276
+\l_coffin_Depth_dim=\dimen277
+\l_coffin_Height_dim=\dimen278
+\l_coffin_TotalHeight_dim=\dimen279
+\l_coffin_Width_dim=\dimen280
+\c_empty_coffin=\box259
+\l_coffin_aligned_coffin=\box260
+\l_coffin_aligned_internal_coffin=\box261
+\l_coffin_bounding_shift_dim=\dimen281
+\l_coffin_left_corner_dim=\dimen282
+\l_coffin_right_corner_dim=\dimen283
+\l_coffin_bottom_corner_dim=\dimen284
+\l_coffin_top_corner_dim=\dimen285
+\l_coffin_scaled_total_height_dim=\dimen286
+\l_coffin_scaled_width_dim=\dimen287
+\l_coffin_display_coffin=\box262
+\l_coffin_display_coord_coffin=\box263
+\l_coffin_display_pole_coffin=\box264
+\l_coffin_display_offset_dim=\dimen288
+\l_coffin_display_x_dim=\dimen289
+\l_coffin_display_y_dim=\dimen290
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3color.sty
+Package: l3color 2011/09/07 v2776 L3 Experimental colour support
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3luatex.sty
+Package: l3luatex 2012/02/09 v3355 L3 Experimental LuaTeX-specific functions
+\g_cctab_allocate_int=\count347
+\g_cctab_stack_int=\count348
+\c_code_cctab=\catcodetable9
+))
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2012/04/23 v3570 L3 Experimental document command parser
+\l_xparse_current_arg_int=\count349
+\l_xparse_m_args_int=\count350
+\l_xparse_mandatory_args_int=\count351
+\l_xparse_processor_int=\count352
+\l_xparse_v_nesting_int=\count353
+)
+(/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/luaotfload.sty
+Package: luaotfload 2012/05/28 v1.27 OpenType layout system
+
+(/usr/share/texlive/texmf-dist/tex/luatex/luatexbase/luatexbase.sty
+Package: luatexbase 2010/10/06 v0.3 Module utilities for LuaTeX
+
+(/usr/share/texlive/texmf-dist/tex/luatex/luatexbase/luatexbase-compat.sty
+Package: luatexbase-compat 2010/10/10 v0.3 Compatibility tools for LuaTeX
+)
+(/usr/share/texlive/texmf-dist/tex/luatex/luatexbase/luatexbase-loader.sty
+Package: luatexbase-loader 2010/10/10 v0.3 Lua module loader for LuaTeX
+
+(/usr/share/texlive/texmf-dist/tex/luatex/luatexbase/luatexbase.loader.lua))
+(/usr/share/texlive/texmf-dist/tex/luatex/luatexbase/luatexbase-regs.sty
+Package: luatexbase-regs 2010/10/10 v0.3 Registers allocation for LuaTeX
+)
+(/usr/share/texlive/texmf-dist/tex/luatex/luatexbase/luatexbase-attr.sty
+Package: luatexbase-attr 2011/05/21 v0.31 Attributes allocation for LuaTeX
+
+(/usr/share/texlive/texmf-dist/tex/luatex/luatexbase/attr.lua))
+(/usr/share/texlive/texmf-dist/tex/luatex/luatexbase/luatexbase-cctb.sty
+Package: luatexbase-cctb 2010/10/10 v0.3 Catcodetable allocation for LuaTeX
+
+(/usr/share/texlive/texmf-dist/tex/luatex/luatexbase/cctb.lua)
+\lltxb@catcodetable@alloc=\count354
+\CatcodeTableIniTeX=\luatexcatcodetable1
+\CatcodeTableString=\luatexcatcodetable3
+\CatcodeTableOther=\luatexcatcodetable5
+\CatcodeTableLaTeX=\luatexcatcodetable7
+\CatcodeTableLaTeXAtLetter=\luatexcatcodetable9
+\CatcodeTableExpl=\luatexcatcodetable11
+)
+(/usr/share/texlive/texmf-dist/tex/luatex/luatexbase/luatexbase-mcb.sty
+Package: luatexbase-mcb 2010/10/10 v0.3 Callback management for LuaTeX
+
+(/usr/share/texlive/texmf-dist/tex/luatex/luatexbase/luatexbase-modutils.sty
+Package: luatexbase-modutils 2010/10/10 v0.3 Module utilities for LuaTeX
+
+(/usr/share/texlive/texmf-dist/tex/luatex/luatexbase/modutils.lua))
+(/usr/share/texlive/texmf-dist/tex/luatex/luatexbase/mcb.lua)
+Lua module: luatexbase-mcb 2010/05/12 0.2 register several functions in a callb
+ack
+))
+(/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs.lua)
+Lua module: lualibs 2011/01/20 0.96 Lua additional functions.
+
+(/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-string.lua)
+(/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-lpeg.lua)
+(/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-boolean.lua)
+(/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-number.lua)
+(/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-math.lua)
+(/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-table.lua)
+(/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-aux.lua)
+(/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-io.lua)
+(/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-os.lua)
+(/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-file.lua)
+(/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-md5.lua)
+(/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-dir.lua)
+(/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-unicode.lua)
+(/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-utils.lua)
+(/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-dimen.lua)
+(/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-url.lua)
+(/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-set.lua)
+(/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/luaotfload.lua)
+Lua module: luaotfload 2012/05/28 1.27 OpenType layout system.
+luaotfload: loading file /usr/share/texlive/texmf-dist/tex/luatex/luaotfload/ot
+fl-luat-dum.lua.(using cache: /home/veronica/.texmf-var/luatex-cache/generic)
+luaotfload: loading file /usr/share/texlive/texmf-dist/tex/luatex/luaotfload/ot
+fl-luat-ovr.lua.
+luaotfload: loading file /usr/share/texlive/texmf-dist/tex/luatex/luaotfload/ot
+fl-data-con.lua.
+luaotfload: loading file /usr/share/texlive/texmf-dist/tex/luatex/luaotfload/ot
+fl-font-ini.lua.
+luaotfload: loading file /usr/share/texlive/texmf-dist/tex/luatex/luaotfload/ot
+fl-node-dum.lua.
+luaotfload: loading file /usr/share/texlive/texmf-dist/tex/luatex/luaotfload/ot
+fl-node-inj.lua.
+luaotfload: loading file /usr/share/texlive/texmf-dist/tex/luatex/luaotfload/ot
+fl-font-tfm.lua.
+luatexbase.attributes["otfl@state"] = 1
+luaotfload: loading file /usr/share/texlive/texmf-dist/tex/luatex/luaotfload/ot
+fl-font-cid.lua.
+luaotfload: loading file /usr/share/texlive/texmf-dist/tex/luatex/luaotfload/ot
+fl-font-ott.lua.
+luaotfload: loading file /usr/share/texlive/texmf-dist/tex/luatex/luaotfload/ot
+fl-font-map.lua.
+luaotfload: loading file /usr/share/texlive/texmf-dist/tex/luatex/luaotfload/ot
+fl-font-otf.lua.
+luaotfload: loading file /usr/share/texlive/texmf-dist/tex/luatex/luaotfload/ot
+fl-font-otd.lua.
+luaotfload: loading file /usr/share/texlive/texmf-dist/tex/luatex/luaotfload/ot
+fl-font-oti.lua.
+luaotfload: loading file /usr/share/texlive/texmf-dist/tex/luatex/luaotfload/ot
+fl-font-otb.lua.
+luaotfload: loading file /usr/share/texlive/texmf-dist/tex/luatex/luaotfload/ot
+fl-font-otn.lua.
+luatexbase.attributes["otfl@markbase"] = 2
+luatexbase.attributes["otfl@markmark"] = 3
+luatexbase.attributes["otfl@markdone"] = 4
+luatexbase.attributes["otfl@cursbase"] = 5
+luatexbase.attributes["otfl@curscurs"] = 6
+luatexbase.attributes["otfl@cursdone"] = 7
+luatexbase.attributes["otfl@kernpair"] = 8
+luaotfload: loading file /usr/share/texlive/texmf-dist/tex/luatex/luaotfload/ot
+fl-font-ota.lua.
+luaotfload: loading file /usr/share/texlive/texmf-dist/tex/luatex/luaotfload/ot
+fl-font-otc.lua.
+luaotfload: loading file /usr/share/texlive/texmf-dist/tex/luatex/luaotfload/ot
+fl-font-def.lua.
+luaotfload: loading file /usr/share/texlive/texmf-dist/tex/luatex/luaotfload/ot
+fl-font-xtx.lua.
+luaotfload: loading file /usr/share/texlive/texmf-dist/tex/luatex/luaotfload/ot
+fl-font-dum.lua.
+luaotfload: loading file /usr/share/texlive/texmf-dist/tex/luatex/luaotfload/ot
+fl-font-nms.lua.
+luaotfload: loading file /usr/share/texlive/texmf-dist/tex/luatex/luaotfload/ot
+fl-font-clr.lua.
+Module luatexbase-mcb info: creating 'luaotfload.patch_font' type 4
+Module luatexbase-mcb info: inserting 'luaotfload.pre_linebreak_filter'
+(luatexbase-mcb)            at position 1 in 'pre_linebreak_filter'
+Module luatexbase-mcb info: inserting 'luaotfload.hpack_filter'
+(luatexbase-mcb)            at position 1 in 'hpack_filter'
+Module luatexbase-mcb info: resetting callback 'define_font'
+Module luatexbase-mcb info: inserting 'luaotfload.define_font'
+(luatexbase-mcb)            at position 1 in 'define_font'
+Module luatexbase-mcb info: inserting 'luaotfload.find_vf_file'
+(luatexbase-mcb)            at position 1 in 'find_vf_file'
+Module luatexbase-mcb info: inserting 'unicodemath.set_sscale_diments'
+(luatexbase-mcb)            at position 1 in 'luaotfload.patch_font'
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.lua)
+Lua module: fontspec 2009/12/04 2 Advanced font selection for LuaLaTeX.
+
+Module luatexbase-mcb info: inserting 'fontspec.set_capheight'
+(luatexbase-mcb)            at position 2 in 'luaotfload.patch_font'
+\l_fontspec_script_int=\count355
+\l_fontspec_language_int=\count356
+\l_fontspec_strnum_int=\count357
+\l_fontspec_tmpa_dim=\dimen291
+\l_fontspec_tmpb_dim=\dimen292
+\l_fontspec_tmpc_dim=\dimen293
+Variant \tl_gset:cV already defined; not changing it on line 66
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-patches.sty
+Package: fontspec-patches 2012/05/06 v2.2b Advanced font selection for XeLaTeX/
+LuaLaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/fixltx2e.sty
+Package: fixltx2e 2006/09/13 v1.1m fixes to LaTeX
+LaTeX Info: Redefining \em on input line 420.
+LaTeX Info: Redefining \textsubscript on input line 424.
+)
+LaTeX Info: Redefining \em on input line 22.
+LaTeX Info: Redefining \emph on input line 29.
+LaTeX Info: Redefining \- on input line 32.
+
+*************************************************
+* LaTeX warning: "xparse/redefine-command"
+* 
+* Redefining document command \oldstylenums with arg. spec. 'm' on line 107.
+*************************************************
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \liningnums with arg. spec. 'm' on line 111.
+.................................................
+) (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
+Package: fontspec-luatex 2012/05/06 v2.2b Advanced font selection for XeLaTeX/L
+uaLaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/share/texlive/texmf-dist/tex/latex/euenc/eu2enc.def
+File: eu2enc.def 2010/05/27 v0.1h Experimental Unicode font encodings
+)
+LaTeX Font Info:    Try loading font information for EU2+lmr on input line 100.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/euenc/eu2lmr.fd
+File: eu2lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+luaotfload | load font: auto-selecting default features for script: dflt (was l
+atn)(load: /home/veronica/.texmf-var/luatex-cache/generic/fonts/otf/temp-lmroma
+n10-regular.lua))
+(/usr/share/texlive/texmf-dist/tex/xelatex/xunicode/xunicode.sty
+File: xunicode.sty 2011/09/09 v0.981 provides access to latin accents and many 
+other characters in Unicode lower plane
+
+(/usr/share/texmf/tex/latex/tipa/t3enc.def
+File: t3enc.def 2001/12/31 T3 encoding
+luaotfload | load font: auto-selecting default features for script: dflt (was l
+atn)(load: /home/veronica/.texmf-var/luatex-cache/generic/fonts/otf/temp-lmroma
+nslant10-regular.lua)
+luaotfload | load font: auto-selecting default features for script: dflt (was l
+atn)(load: /home/veronica/.texmf-var/luatex-cache/generic/fonts/otf/temp-lmroma
+n10-italic.lua)
+luaotfload | load font: auto-selecting default features for script: dflt (was l
+atn)(load: /home/veronica/.texmf-var/luatex-cache/generic/fonts/otf/temp-lmroma
+n10-bold.lua)
+LaTeX Font Info:    Try loading font information for EU2+lmss on input line 357
+.
+(/usr/share/texlive/texmf-dist/tex/latex/euenc/eu2lmss.fd
+File: eu2lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+luaotfload | load font: auto-selecting default features for script: dflt (was l
+atn)(load: /home/veronica/.texmf-var/luatex-cache/generic/fonts/otf/temp-lmsans
+10-regular.lua))
+\tipaTiiicode=\count358
+\tipasavetokens=\toks23
+\tipachecktokens=\toks24
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks25
+)
+\Gin@req@height=\dimen294
+\Gin@req@width=\dimen295
+))
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \fontspec with arg. spec. 'O{}m' on line 42.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setmainfont with arg. spec. 'O{}m' on line 46.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setsansfont with arg. spec. 'O{}m' on line 50.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setmonofont with arg. spec. 'O{}m' on line 54.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setmathrm with arg. spec. 'O{}m' on line 62.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setboldmathrm with arg. spec. 'O{}m' on line 65.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setmathsf with arg. spec. 'O{}m' on line 68.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setmathtt with arg. spec. 'O{}m' on line 71.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \newfontfamily with arg. spec. 'mO{}m' on line 87.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \newfontface with arg. spec. 'mO{}m' on line 90.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \defaultfontfeatures with arg. spec. 'm' on line
+. 94.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \addfontfeatures with arg. spec. 'm' on line 110.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \newfontfeature with arg. spec. 'mm' on line 121.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \newAATfeature with arg. spec. 'mmmm' on line 128.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \newICUfeature with arg. spec. 'mmm' on line 135.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \aliasfontfeature with arg. spec. 'mm' on line
+. 162.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \aliasfontfeatureoption with arg. spec. 'mmm' on
+. line 167.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \newfontscript with arg. spec. 'mm' on line 172.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \newfontlanguage with arg. spec. 'mm' on line 195.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \DeclareFontsExtensions with arg. spec. 'm' on
+. line 214.
+.................................................
+Variant \prop_gput:cnV already defined; not changing it on line 489
+Variant \prop_gput:cnx already defined; not changing it on line 490
+\l_fontspec_tmp_int=\count359
+LaTeX Info: Redefining \itshape on input line 1819.
+LaTeX Info: Redefining \slshape on input line 1823.
+LaTeX Info: Redefining \scshape on input line 1827.
+LaTeX Info: Redefining \upshape on input line 1831.
+
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+luaotfload | Font names database loaded: /home/veronica/.texmf-var/luatex-cache
+/generic/names/otfl-names.lua
+luaotfload | load font: font family='ebgaramond', subfamily='regular' found: EB
+Garamond-Regular.otf(load: /home/veronica/.texmf-var/luatex-cache/generic/fonts
+/otf/temp-ebgaramond-regular.lua)
+luaotfload | load font: font family='ebgaramond', subfamily='regular' found: EB
+Garamond-Regular.otf
+fontspec: script 'latn' exists in font 'EB Garamond'
+fontspec: script 'latn' exists in font 'EB Garamond'
+\g_fontspec_family_EB Garamond_int=\count360
+luaotfload | load font: font family='ebgaramond', subfamily='regular' found: EB
+Garamond-Regular.otf
+fontspec: feature '+smcp' for language 'DFLT' and script 'latn' exists in font 
+'EB Garamond'
+fontspec: feature '+smcp' for language 'DFLT' and script 'latn' exists in font 
+'EB Garamond'
+luaotfload | load font: font family='ebgaramond', subfamily='regular' found: EB
+Garamond-Regular.otf
+luaotfload | load font: font family='ebgaramond', subfamily='bold' found: EBGar
+amond-Bold.otf(load: /home/veronica/.texmf-var/luatex-cache/generic/fonts/otf/t
+emp-ebgaramond-bold.lua)
+luaotfload | load font: font family='ebgaramond', subfamily='bold' found: EBGar
+amond-Bold.otf
+fontspec: feature '+smcp' for language 'DFLT' and script 'latn' exists in font 
+'EB Garamond Bold'
+fontspec: feature '+smcp' for language 'DFLT' and script 'latn' exists in font 
+'EB Garamond Bold'
+luaotfload | load font: font family='ebgaramond', subfamily='regular' found: EB
+Garamond-Regular.otf
+luaotfload | load font: font family='ebgaramond', subfamily='italic' found: EBG
+aramond-Italic.otf(load: /home/veronica/.texmf-var/luatex-cache/generic/fonts/o
+tf/temp-ebgaramond-italic.lua)
+luaotfload | load font: font family='ebgaramond', subfamily='italic' found: EBG
+aramond-Italic.otf
+fontspec: feature '+smcp' for language 'DFLT' and script 'latn' exists in font 
+'EB Garamond Italic'
+fontspec: feature '+smcp' for language 'DFLT' and script 'latn' exists in font 
+'EB Garamond Italic'
+luaotfload | load font: font family='ebgaramond', subfamily='regular' found: EB
+Garamond-Regular.otf(load: /home/veronica/.texmf-var/luatex-cache/generic/fonts
+/otf/temp-ebgaramond12-regular.lua)
+fontspec: feature '+smcp' for language 'DFLT' and script 'latn' exists in font 
+'EB Garamond 12 Regular'
+fontspec: feature '+smcp' for language 'DFLT' and script 'latn' exists in font 
+'EB Garamond 12 Regular'
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'EBGaramond(0)' created for font 'EB Garamond' with options [].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. <->"name:EBGaramond:mode=node;script=latn;language=DFLT;"
+. 
+. * 'small caps' with NFSS spec.:
+. <->"name:EBGaramond:mode=node;script=latn;language=DFLT;+smcp;"
+. 
+. * 'bold' with NFSS spec.:
+. <->"name:EBGaramond/B:mode=node;script=latn;language=DFLT;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. <->"name:EBGaramond/B:mode=node;script=latn;language=DFLT;+smcp;"
+. 
+. * 'italic' with NFSS spec.:
+. <->"name:EBGaramond/I:mode=node;script=latn;language=DFLT;"
+. 
+. * 'italic small caps' with NFSS spec.:
+. <->"name:EBGaramond/I:mode=node;script=latn;language=DFLT;+smcp;"
+. 
+. * 'bold italic' with NFSS spec.:
+. <->"name:EBGaramond/BI:mode=node;script=latn;language=DFLT;"
+. 
+. * 'bold italic small caps' with NFSS spec.:
+. <->"name:EBGaramond/BI:mode=node;script=latn;language=DFLT;+smcp;"
+.................................................
+luaotfload | load font: auto-selecting default features for script: dflt (was l
+atn)
+luaotfload | load font: font family='ebgaramond', subfamily='regular' found: EB
+Garamond-Regular.otf
+luaotfload | load font: font family='vectisbold', subfamily='regular' found: Ve
+ctis_Bold_OT.otf(load: /home/veronica/.texmf-var/luatex-cache/generic/fonts/otf
+/temp-vectis-bold-ot.lua)
+luaotfload | load font: font family='vectisbold', subfamily='regular' found: Ve
+ctis_Bold_OT.otf
+fontspec: script 'latn' exists in font 'Vectis Bold'
+fontspec: script 'latn' exists in font 'Vectis Bold'
+\g_fontspec_family_Vectis Bold_int=\count361
+luaotfload | load font: font family='vectisbold', subfamily='regular' found: Ve
+ctis_Bold_OT.otf
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'VectisBold(0)' created for font 'Vectis Bold' with options
+. [BoldFont={},ItalicFont={},SmallCapsFont={},].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. <->"name:VectisBold:mode=node;script=latn;language=DFLT;"
+.................................................
+ (/usr/share/texmf/tex/latex/gregoriotex/gregoriotex.sty
+Package: gregoriotex 2010/09/27 v2.1 GregorioTeX system.
+
+(/usr/share/texmf/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+LaTeX Info: Redefining \color on input line 702.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(/usr/share/texmf/tex/gregoriotex/gregoriotex.tex
+\gregorioattr=\luatexattribute9
+
+(/usr/share/texmf/tex/gregoriotex/gregoriotex.lua)
+Lua module: gregoriotex 2010/09/27 2.1 GregorioTeX module.
+\Greaux=\write4
+\grefactor=\count362
+
+(/usr/share/texmf/tex/gregoriotex/gregoriotex-spaces.tex
+\greadditionallineswidth=\skip262
+\grezerowidthspace=\skip263
+\greinterglyphspace=\skip264
+\grealterationspace=\skip265
+\grebeforechoralsignspace=\skip266
+\greclefflatspace=\skip267
+\grebeforealterationspace=\skip268
+\greinterelementspace=\skip269
+\grelargerspace=\skip270
+\greglyphspace=\skip271
+\greintersyllablespace=\skip272
+\grespacebeforecusto=\skip273
+\grespacebeforesigns=\skip274
+\grespaceaftersigns=\skip275
+\grespaceafterlineclef=\skip276
+\greinterwordspacenotes=\skip277
+\greinterwordspacenotestext=\skip278
+\greinterwordspacetextnotes=\skip279
+\greinterwordspacetext=\skip280
+\grebitrivirspace=\skip281
+\grebitristrospace=\skip282
+\grepunctuminclinatumshift=\skip283
+\grebeforepunctainclinatashift=\skip284
+\grepunctuminclinatumanddebilisshift=\skip285
+\grepunctuminclinatumdebilisshift=\skip286
+\grepunctuminclinatumbigshift=\skip287
+\grepunctuminclinatummaxshift=\skip288
+\grespacearoundsmallbar=\skip289
+\grespacearoundminor=\skip290
+\grespacearoundmaior=\skip291
+\grespacearoundfinalis=\skip292
+\grespacebeforefinalfinalis=\skip293
+\grespacearoundclefbars=\skip294
+\gretextbartextspace=\skip295
+\grenotebarspace=\skip296
+\gremaximumspacewithoutdash=\dimen296
+\greafterclefnospace=\skip297
+\greadditionallineswidth=\dimen297
+\greafterinitialshift=\skip298
+\grebeforeinitialshift=\skip299
+\greminimalspaceatlinebeginning=\dimen298
+\greaboveinitialseparation=\dimen299
+\grestafflineheight=\dimen300
+\greinterstafflinespace=\dimen301
+\grestafflinediff=\dimen302
+\greabovesignsspace=\dimen303
+\grebelowsignsspace=\dimen304
+\grelowchoralsignshift=\dimen305
+\grehighchoralsignshift=\dimen306
+\gretranslationheight=\dimen307
+\grespaceabovelines=\skip300
+\greabovelinestextraise=\dimen308
+\greabovelinestextheight=\dimen309
+\grespacelinestext=\skip301
+\grespacebeneathtext=\skip302
+\greconstantglyphraise=\dimen310
+\grestaffheight=\dimen311
+\greclefchangespace=\skip303
+\grenoclefspace=\dimen312
+\grebraceshift=\skip304
+\grecurlybraceaccentusshift=\skip305
+
+(/usr/share/texmf/tex/gregoriotex/gsp-default.tex))
+\grestafflinewidth=\dimen313
+\grelinewidth=\dimen314
+\grecurrenttranslationheight=\dimen315
+\greadditionalbottomspace=\dimen316
+\greadditionaltopspace=\dimen317
+\gretextlower=\dimen318
+\GreTempwidth=\box265
+\gretempwidth=\dimen319
+\gretextaligncenter=\dimen320
+\gregoriotextdashwidth=\dimen321
+\greadditionalleftspace=\dimen322
+\GreInitial=\box266
+\greinitialwidth=\dimen323
+\grebiginitial=\count363
+\greknownline=\count364
+\GreAboveinitialfirstbox=\box267
+\greaboveinitialfirstraise=\dimen324
+\GreAboveinitialsecondbox=\box268
+\greaboveinitialsecondraise=\dimen325
+\grecurrentabovelinestextheight=\dimen326
+\GreLines=\box269
+
+(/usr/share/texmf/tex/gregoriotex/gregoriotex-signs.tex
+\greclefnum=\count365
+\greclefwidth=\dimen327
+\GreTempsign=\box270
+\gretempdimsignwidth=\dimen328
+\gretempdimtwo=\dimen329
+\keeprightbox=\count366
+\grefirstisalteration=\count367
+)
+(/usr/share/texmf/tex/gregoriotex/gregoriotex-syllable.tex
+\greglyphraisevalue=\dimen330
+\greaddedraisevalue=\dimen331
+\gretempdimcount=\count368
+\greisonaline=\count369
+\grefirstglyph=\count370
+\grelastglyphwidth=\dimen332
+\grenotesaligncenter=\dimen333
+\GreSyllablenotes=\box271
+\greenddifference=\dimen334
+\grepreviousenddifference=\dimen335
+\grebegindifference=\dimen336
+\gretempdim=\dimen337
+\GreSyllabletext=\box272
+\grefirstsyllableofword=\count371
+\greendofscore=\count372
+\greskipone=\skip306
+\grenextbegindifference=\skip307
+\gretempdimskip=\skip308
+)
+\printchirovbars=\count373
+\grelastoflinecount=\count374
+\greblockcusto=\count375
+
+(/usr/share/texmf/tex/gregoriotex/gregoriotex-symbols.tex
+\gretempfactor=\count376
+)))
+(/home/veronica/texmf/tex/latex/preprint/fullpage.sty
+Package: fullpage 1999/02/23 1.1 (PWD)
+\FP@margin=\skip309
+)
+(/home/veronica/texmf/tex/latex/misc/parallel.sty
+Package: parallel 2003/04/13, setting two texts parallel (me)
+
+`parallel': setting two texts parallel, (beta 4) 2003/04/13.
+\ParallelLWidth=\dimen338
+\ParallelRWidth=\dimen339
+\ParallelTextWidth=\dimen340
+\ParallelLeftMargin=\dimen341
+\ParallelUserMidSkip=\dimen342
+\ParallelMainMidSkip=\dimen343
+\ParallelLBox=\box273
+\ParallelRBox=\box274
+\ParallelBoxVar=\box275
+\ParallelLTok=\box276
+\ParallelRTok=\box277
+\ParallelBoolVar=\count377
+\ParallelBoolMid=\count378
+\ParallelWhichBox=\count379
+\ParallelMainMode=\count380
+\ParallelFNMode=\count381
+\ParallelLFNCounter=\count382
+\ParallelRFNCounter=\count383
+\ParallelMaxFN=\count384
+\ParallelFNNumMode=\count385
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
+\c@tracingmulticols=\count386
+\mult@box=\box278
+\multicol@leftmargin=\dimen344
+\c@unbalance=\count387
+\c@collectmore=\count388
+\doublecol@number=\count389
+\multicoltolerance=\count390
+\multicolpretolerance=\count391
+\full@width=\dimen345
+\page@free=\dimen346
+\premulticols=\dimen347
+\postmulticols=\dimen348
+\multicolsep=\skip310
+\multicolbaselineskip=\skip311
+\partial@page=\box279
+\last@line=\box280
+\mult@rightbox=\box281
+\mult@grightbox=\box282
+\mult@gfirstbox=\box283
+\mult@firstbox=\box284
+\@tempa=\box285
+\@tempa=\box286
+\@tempa=\box287
+\@tempa=\box288
+\@tempa=\box289
+\@tempa=\box290
+\@tempa=\box291
+\@tempa=\box292
+\@tempa=\box293
+\@tempa=\box294
+\@tempa=\box295
+\@tempa=\box296
+\@tempa=\box297
+\@tempa=\box298
+\@tempa=\box299
+\@tempa=\box300
+\@tempa=\box301
+\c@columnbadness=\count392
+\c@finalcolumnbadness=\count393
+\last@try=\dimen349
+\multicolovershoot=\dimen350
+\multicolundershoot=\dimen351
+\mult@nat@firstbox=\box302
+\colbreak@box=\box303
+\multicol@sort@counter=\count394
+)
+\temp=\dimen352
+ (./compline.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for EU2/lmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 26.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 26.
+
+(/usr/share/texmf/tex/latex/tipa/t3cmr.fd
+File: t3cmr.fd 2001/12/31 TIPA font definitions
+)
+LaTeX Font Info:    ... okay on input line 26.
+luaotfload | load font: auto-selecting default features for script: dflt (was l
+atn)
+luaotfload | load font: font family='ebgaramond', subfamily='regular' found: EB
+Garamond-Regular.otf
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count395
+\scratchdimen=\dimen353
+\scratchbox=\box304
+\nofMPsegments=\count396
+\nofMParguments=\count397
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count398
+\MPscratchDim=\dimen354
+\MPnumerator=\count399
+\makeMPintoPDFobject=\count400
+\everyMPtoPDFconversion=\toks27
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+.................................................
+. fontspec info: "setup-math"
+. 
+. Adjusting the maths setup (use [no-math] to avoid this).
+.................................................
+\symlegacymaths=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 26.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 26.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 26.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 26.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 26.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 26.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 26.
+LaTeX Font Info:    Redeclaring math accent \check on input line 26.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 26.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 26.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 26.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 26.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 26.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 26.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 26.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 26.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 26.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 26.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 26.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 26.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 26.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 26.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 26.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 26.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 26.
+LaTeX Font Info:    Encoding `OT1' has changed to `EU2' for symbol font
+(Font)              `operators' in the math version `normal' on input line 26.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> EU2/EBGaramond(0)/m/n on input line 26.
+
+LaTeX Font Info:    Encoding `OT1' has changed to `EU2' for symbol font
+(Font)              `operators' in the math version `bold' on input line 26.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> EU2/EBGaramond(0)/m/n on input line 26
+.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  EU2/EBGaramond(0)/m/n --> EU2/EBGaramond(0)/m/n on inpu
+t line 26.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  EU2/EBGaramond(0)/m/n --> EU2/EBGaramond(0)/m/n on inpu
+t line 26.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> EU2/EBGaramond(0)/m/it on input line 2
+6.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> EU2/EBGaramond(0)/bx/n on input line 2
+6.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> EU2/lmss/m/n on input line 26.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> EU2/lmtt/m/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  EU2/EBGaramond(0)/m/n --> EU2/EBGaramond(0)/bx/n on inp
+ut line 26.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
+(Font)                  EU2/EBGaramond(0)/m/n --> EU2/EBGaramond(0)/bx/n on inp
+ut line 26.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> EU2/EBGaramond(0)/bx/it on input line
+ 26.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> EU2/lmss/bx/n on input line 26.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> EU2/lmtt/bx/n on input line 26.
+
+checksum mismatch in font greciliae.ofm.vf ignored 
+luaotfload | load font: auto-selecting default features for script: dflt (was l
+atn)
+luaotfload | load font: font family='ebgaramond', subfamily='regular' found: EB
+Garamond-Regular.otf
+luaotfload | load font: auto-selecting default features for script: dflt (was l
+atn)
+luaotfload | load font: font family='vectisbold', subfamily='regular' found: Ve
+ctis_Bold_OT.otf
+luaotfload | load font: auto-selecting default features for script: dflt (was l
+atn)
+luaotfload | load font: font family='vectisbold', subfamily='regular' found: Ve
+ctis_Bold_OT.otf
+luaotfload | load font: auto-selecting default features for script: dflt (was l
+atn)
+luaotfload | load font: font family='vectisbold', subfamily='regular' found: Ve
+ctis_Bold_OT.otf
+luaotfload | load font: auto-selecting default features for script: dflt (was l
+atn)
+luaotfload | load font: font family='ebgaramond', subfamily='regular' found: EB
+Garamond-Regular.otf
+
+Class memoir Warning: The material used in the headers is too large
+(14.49998pt) for the given head height (0.0pt), it is recommended to
+either increase the head height or redesign the header
+(in both cases you will find help in the memoir manual). on input line 52.
+
+
+Overfull \vbox (14.49998pt too high) has occurred while \output is active []
+
+
+[1
+
+{/home/veronica/.texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+luaotfload | load font: auto-selecting default features for script: dflt (was l
+atn)
+luaotfload | load font: font family='vectisbold', subfamily='regular' found: Ve
+ctis_Bold_OT.otf
+Overfull \vbox (14.49998pt too high) has occurred while \output is active []
+
+
+[2]
+luaotfload | load font: auto-selecting default features for script: dflt (was l
+atn)
+luaotfload | load font: font family='ebgaramond', subfamily='italic' found: EBG
+aramond-Italic.otf (./converte.tex
+Module luatexbase-mcb info: inserting 'gregoriotex.callback'
+(luatexbase-mcb)            at position 1 in 'post_linebreak_filter'
+Module luatexbase-mcb info: removing 'gregoriotex.callback'
+(luatexbase-mcb)            from 'post_linebreak_filter'
+) (./etaverte.tex
+Module luatexbase-mcb info: inserting 'gregoriotex.callback'
+(luatexbase-mcb)            at position 1 in 'post_linebreak_filter'
+Module luatexbase-mcb info: removing 'gregoriotex.callback'
+(luatexbase-mcb)            from 'post_linebreak_filter'
+) (./deusinadj.tex
+Module luatexbase-mcb info: inserting 'gregoriotex.callback'
+(luatexbase-mcb)            at position 1 in 'post_linebreak_filter'
+Module luatexbase-mcb info: removing 'gregoriotex.callback'
+(luatexbase-mcb)            from 'post_linebreak_filter'
+)
+luaotfload | load font: auto-selecting default features for script: dflt (was l
+atn)
+luaotfload | load font: font family='ebgaramond', subfamily='regular' found: EB
+Garamond-Regular.otf
+luaotfload | load font: auto-selecting default features for script: dflt (was l
+atn)
+luaotfload | load font: font family='ebgaramond', subfamily='bold' found: EBGar
+amond-Bold.otf
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (14.49998pt too high) has occurred while \output is active []
+
+
+[3]
+luaotfload | load font: auto-selecting default features for script: dflt (was l
+atn)
+luaotfload | load font: font family='ebgaramond', subfamily='regular' found: EB
+Garamond-Regular.otf
+luaotfload | load font: auto-selecting default features for script: dflt (was l
+atn)
+luaotfload | load font: font family='ebgaramond', subfamily='bold' found: EBGar
+amond-Bold.otf (./psalm128v1.tex
+Module luatexbase-mcb info: inserting 'gregoriotex.callback'
+(luatexbase-mcb)            at position 1 in 'post_linebreak_filter'
+luaotfload | load font: auto-selecting default features for script: dflt (was l
+atn)
+luaotfload | load font: font family='ebgaramond', subfamily='bold' found: EBGar
+amond-Bold.otf
+Underfull \hbox (badness 10000) in paragraph at lines 3--88
+
+ []
+
+Module luatexbase-mcb info: removing 'gregoriotex.callback'
+(luatexbase-mcb)            from 'post_linebreak_filter'
+) (./psalm128vv.tex
+Underfull \hbox (badness 4291) in paragraph at lines 2--2
+[][]\EU2/EBGaramond(0)/m/n/12 Sæ-pe ex-pu-gna-vé-runt me a ju-
+ []
+
+
+Overfull \vbox (14.49998pt too high) has occurred while \output is active []
+
+
+[4]) (./psalm129v1.tex
+Module luatexbase-mcb info: inserting 'gregoriotex.callback'
+(luatexbase-mcb)            at position 1 in 'post_linebreak_filter'
+Module luatexbase-mcb info: removing 'gregoriotex.callback'
+(luatexbase-mcb)            from 'post_linebreak_filter'
+) (./psalm129vv.tex
+Underfull \hbox (badness 4378) in paragraph at lines 6--6
+[][]\EU2/EBGaramond(0)/m/n/12 Su-stin-uit áni-ma mea in \EU2/EBGaramond(0)/m/i
+t/12 verbo
+ []
+
+
+Overfull \vbox (14.49998pt too high) has occurred while \output is active []
+
+
+[5]) (./psalm130v1.tex
+Module luatexbase-mcb info: inserting 'gregoriotex.callback'
+(luatexbase-mcb)            at position 1 in 'post_linebreak_filter'
+Module luatexbase-mcb info: removing 'gregoriotex.callback'
+(luatexbase-mcb)            from 'post_linebreak_filter'
+) (./psalm130vv.tex
+Overfull \vbox (14.49998pt too high) has occurred while \output is active []
+
+
+[6]) (./memento.tex
+Module luatexbase-mcb info: inserting 'gregoriotex.callback'
+(luatexbase-mcb)            at position 1 in 'post_linebreak_filter'
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--447
+
+ []
+
+
+Underfull \vbox (badness 7451) has occurred while \output is active []
+
+
+Overfull \vbox (14.49998pt too high) has occurred while \output is active []
+
+
+[7]
+Module luatexbase-mcb info: removing 'gregoriotex.callback'
+(luatexbase-mcb)            from 'post_linebreak_filter'
+)
+Overfull \vbox (14.49998pt too high) has occurred while \output is active []
+
+
+[8]
+Underfull \hbox (badness 6691) in paragraph at lines 166--166
+[][]\gregoriosymbolfont B\EU2/EBGaramond(0)/m/n/12 . An-ge-lus Do-mi-ni nun-tia
+-vit
+ []
+
+(./subtuum.tex
+Module luatexbase-mcb info: inserting 'gregoriotex.callback'
+(luatexbase-mcb)            at position 1 in 'post_linebreak_filter'
+Module luatexbase-mcb info: removing 'gregoriotex.callback'
+(luatexbase-mcb)            from 'post_linebreak_filter'
+) (./nuncdimittis7a.tex
+Module luatexbase-mcb info: inserting 'gregoriotex.callback'
+(luatexbase-mcb)            at position 1 in 'post_linebreak_filter'
+
+Underfull \vbox (badness 1442) has occurred while \output is active []
+
+
+Overfull \vbox (14.49998pt too high) has occurred while \output is active []
+
+
+[9]
+Module luatexbase-mcb info: removing 'gregoriotex.callback'
+(luatexbase-mcb)            from 'post_linebreak_filter'
+) (./spiritussanctus.tex
+Module luatexbase-mcb info: inserting 'gregoriotex.callback'
+(luatexbase-mcb)            at position 1 in 'post_linebreak_filter'
+luaotfload | load font: auto-selecting default features for script: dflt (was l
+atn)
+luaotfload | load font: font family='ebgaramond', subfamily='regular' found: EB
+Garamond-Regular.otf
+luaotfload | load font: auto-selecting default features for script: dflt (was l
+atn)
+luaotfload | load font: font family='ebgaramond', subfamily='bold' found: EBGar
+amond-Bold.otf
+Module luatexbase-mcb info: removing 'gregoriotex.callback'
+(luatexbase-mcb)            from 'post_linebreak_filter'
+)
+Underfull \vbox (badness 4303) has occurred while \output is active []
+
+
+Overfull \vbox (14.49998pt too high) has occurred while \output is active []
+
+
+[10] (./nuncdimittis8G.tex
+Module luatexbase-mcb info: inserting 'gregoriotex.callback'
+(luatexbase-mcb)            at position 1 in 'post_linebreak_filter'
+Module luatexbase-mcb info: removing 'gregoriotex.callback'
+(luatexbase-mcb)            from 'post_linebreak_filter'
+)
+Overfull \vbox (14.49998pt too high) has occurred while \output is active []
+
+
+[11] (./magnum.tex
+Module luatexbase-mcb info: inserting 'gregoriotex.callback'
+(luatexbase-mcb)            at position 1 in 'post_linebreak_filter'
+Module luatexbase-mcb info: removing 'gregoriotex.callback'
+(luatexbase-mcb)            from 'post_linebreak_filter'
+) (./nuncdimittis2A.tex
+Module luatexbase-mcb info: inserting 'gregoriotex.callback'
+(luatexbase-mcb)            at position 1 in 'post_linebreak_filter'
+
+Underfull \vbox (badness 6758) has occurred while \output is active []
+
+
+Overfull \vbox (14.49998pt too high) has occurred while \output is active []
+
+
+[12]
+Module luatexbase-mcb info: removing 'gregoriotex.callback'
+(luatexbase-mcb)            from 'post_linebreak_filter'
+) (./reginacaeliAlt.tex
+Module luatexbase-mcb info: inserting 'gregoriotex.callback'
+(luatexbase-mcb)            at position 1 in 'post_linebreak_filter'
+Module luatexbase-mcb info: removing 'gregoriotex.callback'
+(luatexbase-mcb)            from 'post_linebreak_filter'
+) (./nuncdimittis1D2.tex
+Module luatexbase-mcb info: inserting 'gregoriotex.callback'
+(luatexbase-mcb)            at position 1 in 'post_linebreak_filter'
+
+Overfull \vbox (14.49998pt too high) has occurred while \output is active []
+
+
+[13]
+Module luatexbase-mcb info: removing 'gregoriotex.callback'
+(luatexbase-mcb)            from 'post_linebreak_filter'
+)
+Underfull \hbox (badness 7504) in paragraph at lines 245--245
+[][]\gregoriosymbolfont B\EU2/EBGaramond(0)/m/n/12 . Dó-mi-ne ex-áu-di ora-ti
+ó-nem
+ []
+
+
+Underfull \hbox (badness 3281) in paragraph at lines 256--256
+\EU2/EBGaramond(0)/m/n/12 gi-nis Ma-ríae, quaé-su-mus Dó-mi-
+ []
+
+
+Overfull \vbox (14.49998pt too high) has occurred while \output is active []
+
+
+[14]
+Underfull \hbox (badness 3240) in paragraph at lines 263--263
+\EU2/EBGaramond(0)/m/n/12 vit et re-gnat in uni-ta-te Spi-ri-tus
+ []
+
+
+Underfull \hbox (badness 4084) in paragraph at lines 263--263
+\EU2/EBGaramond(0)/m/n/12 Sanc-ti Deus, per om-nia sae-cu-la
+ []
+
+
+Underfull \hbox (badness 7504) in paragraph at lines 272--272
+[][]\gregoriosymbolfont B\EU2/EBGaramond(0)/m/n/12 . Dó-mi-ne ex-áu-di ora-ti
+ó-nem
+ []
+
+
+Underfull \hbox (badness 5504) in paragraph at lines 276--276
+[][]\EU2/EBGaramond(0)/m/n/12 May the almighty and mer-ci-
+ []
+
+
+Overfull \vbox (14.49998pt too high) has occurred while \output is active []
+
+
+[15]
+luaotfload | load font: auto-selecting default features for script: dflt (was l
+atn)
+luaotfload | load font: font family='ebgaramond', subfamily='regular' found: EB
+Garamond-Regular.otf
+luaotfload | load font: auto-selecting default features for script: dflt (was l
+atn)
+luaotfload | load font: font family='ebgaramond', subfamily='italic' found: EBG
+aramond-Italic.otf (./almaredemptoris_solemn.tex
+Module luatexbase-mcb info: inserting 'gregoriotex.callback'
+(luatexbase-mcb)            at position 1 in 'post_linebreak_filter'
+Module luatexbase-mcb info: removing 'gregoriotex.callback'
+(luatexbase-mcb)            from 'post_linebreak_filter'
+) (./almaredemptoris.tex
+Module luatexbase-mcb info: inserting 'gregoriotex.callback'
+(luatexbase-mcb)            at position 1 in 'post_linebreak_filter'
+
+Underfull \vbox (badness 1448) has occurred while \output is active []
+
+
+Overfull \vbox (14.49998pt too high) has occurred while \output is active []
+
+
+[16]
+Module luatexbase-mcb info: removing 'gregoriotex.callback'
+(luatexbase-mcb)            from 'post_linebreak_filter'
+)
+Underfull \hbox (badness 6691) in paragraph at lines 300--300
+[][]\gregoriosymbolfont B\EU2/EBGaramond(0)/m/n/12 . An-ge-lus Dó-mi-ni nun-ti
+á-vit
+ []
+
+
+Overfull \vbox (14.49998pt too high) has occurred while \output is active []
+
+
+[17]
+Underfull \hbox (badness 6592) in paragraph at lines 317--317
+[][]\gregoriosymbolfont B\EU2/EBGaramond(0)/m/n/12 . Di-ví-num au-xí-lium m
+á-neat
+ []
+
+(./averegina_solemn.tex
+Module luatexbase-mcb info: inserting 'gregoriotex.callback'
+(luatexbase-mcb)            at position 1 in 'post_linebreak_filter'
+Module luatexbase-mcb info: removing 'gregoriotex.callback'
+(luatexbase-mcb)            from 'post_linebreak_filter'
+) (./averegina.tex
+Overfull \vbox (14.49998pt too high) has occurred while \output is active []
+
+
+[18]
+Module luatexbase-mcb info: inserting 'gregoriotex.callback'
+(luatexbase-mcb)            at position 1 in 'post_linebreak_filter'
+Module luatexbase-mcb info: removing 'gregoriotex.callback'
+(luatexbase-mcb)            from 'post_linebreak_filter'
+)
+Underfull \hbox (badness 6592) in paragraph at lines 347--347
+[][]\gregoriosymbolfont B\EU2/EBGaramond(0)/m/n/12 . Di-ví-num au-xí-lium m
+á-neat
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (14.49998pt too high) has occurred while \output is active []
+
+
+[19] (./reginacaeli_solemn.tex
+Module luatexbase-mcb info: inserting 'gregoriotex.callback'
+(luatexbase-mcb)            at position 1 in 'post_linebreak_filter'
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--416
+
+ []
+
+Module luatexbase-mcb info: removing 'gregoriotex.callback'
+(luatexbase-mcb)            from 'post_linebreak_filter'
+) (./reginacaeli.tex
+Module luatexbase-mcb info: inserting 'gregoriotex.callback'
+(luatexbase-mcb)            at position 1 in 'post_linebreak_filter'
+Module luatexbase-mcb info: removing 'gregoriotex.callback'
+(luatexbase-mcb)            from 'post_linebreak_filter'
+)
+Overfull \vbox (14.49998pt too high) has occurred while \output is active []
+
+
+[20]
+Underfull \hbox (badness 6592) in paragraph at lines 383--383
+[][]\gregoriosymbolfont B\EU2/EBGaramond(0)/m/n/12 . Di-ví-num au-xí-lium m
+á-neat
+ []
+
+(./salveregina_solemn.tex
+Module luatexbase-mcb info: inserting 'gregoriotex.callback'
+(luatexbase-mcb)            at position 1 in 'post_linebreak_filter'
+
+Overfull \vbox (14.49998pt too high) has occurred while \output is active []
+
+
+[21]
+Module luatexbase-mcb info: removing 'gregoriotex.callback'
+(luatexbase-mcb)            from 'post_linebreak_filter'
+) (./salveregina.tex
+Module luatexbase-mcb info: inserting 'gregoriotex.callback'
+(luatexbase-mcb)            at position 1 in 'post_linebreak_filter'
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (14.49998pt too high) has occurred while \output is active []
+
+
+[22]
+Module luatexbase-mcb info: removing 'gregoriotex.callback'
+(luatexbase-mcb)            from 'post_linebreak_filter'
+)
+Underfull \hbox (badness 5203) in paragraph at lines 412--412
+[][]\EU2/EBGaramond(0)/m/n/12 Om-ní-po-tens sem-pi-tér-ne Deus,
+ []
+
+
+Underfull \hbox (badness 4303) in paragraph at lines 412--412
+\EU2/EBGaramond(0)/m/n/12 in-ter-ces-sió-ne ab in-stán-ti-bus ma-
+ []
+
+
+Underfull \hbox (badness 6592) in paragraph at lines 417--417
+[][]\gregoriosymbolfont B\EU2/EBGaramond(0)/m/n/12 . Di-ví-num au-xí-lium m
+á-neat
+ []
+
+
+Class memoir Warning: The material used in the headers is too large
+(14.49998pt) for the given head height (0.0pt), it is recommended to
+either increase the head height or redesign the header
+(in both cases you will find help in the memoir manual). on input line 421.
+
+
+Overfull \vbox (14.49998pt too high) has occurred while \output is active []
+
+
+[23] (./compline.aux) )
+
+Here is how much of LuaTeX's memory you used:
+ 19727 strings out of 495077
+ 745239,552014 words of node,token memory allocated
+ 640658 words of node memory still in use:
+   21839 hlist, 3659 vlist, 14637 rule, 36466 glue, 14615 kern, 68 penalty, 729
+0 glyph, 14858 attribute, 250 glue_spec, 7465 attribute_list, 2 write nodes
+   avail lists: 1:1,2:4635,3:1165,4:529,5:1214,6:1109,7:161,9:619,10:153
+ 22456 multiletter control sequences out of 65536+200000
+ 56 fonts using 7357851 bytes
+ 53i,12n,38p,792b,433s stack positions out of 5000i,500n,10000p,200000b,50000s
+</home/veronica/texmf/fonts/opentype/gduffner/EBGaramond-Bold.otf></home/veroni
+ca/texmf/fonts/opentype/gduffner/EBGaramond-Italic.otf></home/veronica/texmf/fo
+nts/opentype/gduffner/EBGaramond-Regular.otf></home/veronica/texmf/fonts/openty
+pe/paullloyd/Vectis_Bold_OT.otf></usr/share/texmf/fonts/type1/public/gregoriote
+x/greciliae/greciliae-0.pfb></usr/share/texmf/fonts/type1/public/gregoriotex/gr
+eciliae/greciliae-1.pfb></usr/share/texmf/fonts/type1/public/gregoriotex/grecil
+iae/greciliae-2.pfb></usr/share/texmf/fonts/type1/public/gregoriotex/greciliae/
+greciliae-6.pfb></usr/share/texmf/fonts/type1/public/gregoriotex/gresym/gresym.
+pfb>
+Output written on compline.pdf (23 pages, 216090 bytes).
+
+PDF statistics: 126 PDF objects out of 1000 (max. 8388607)
+ 83 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 131072)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

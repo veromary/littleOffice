@@ -1,0 +1,90 @@
+\documentclass[a5paper, 12pt]{article}
+\usepackage{gregoriotex}
+\usepackage{fontspec}
+\defaultfontfeatures{Ligatures=TeX}
+%\setsansfont{Quercus}
+\setmainfont{Calluna}
+%
+
+\begin{document}
+
+%Tone 8G
+
+\section{Psalm 119}
+
+\includescore{terce1.tex}
+
+%Ad Dóminum cum tribulárer cla\textbf{má}vi, * et \textit{exau}\textbf{dí}vit me.
+
+Dómine, líbera ánimam meam a lábiis in\textbf{í}quis, * et a lin\textit{gua do}\textbf{ló}sa.
+
+Quid detur tibi, aut quid apponátur \textbf{ti}bi, * ad lin\textit{guam do}\textbf{ló}sam~?
+
+Sagíttae poténtis a\textbf{cú}tae, * cum carbónibus de\textit{sola}\textbf{tór}iis.
+
+Heu mihi, quia incolátus meus prolongátus est~: \dag\ habitávi cum habitántibus \textbf{Ce}dar~; * 
+multum incola fuit á\textit{nima} \textbf{me}a.
+
+Cum his qui odérunt pacem eram pa\textbf{cí}ficus~; * cum loquébar illis, impugná\textit{bant me} \textbf{gra}tis.
+
+Glória Patri et \textbf{Fí}lio * et Spirí\textit{tui} \textbf{San}cto.
+
+Sicut erat in princípio, et nunc et \textbf{sem}per * et in sáecula saecu\textit{lórum.} \textbf{A}men.
+
+
+\section{Psalm 120}
+
+\includescore{terce2.tex}
+
+%Levávi óculos meos in \textbf{mon}tes, * unde véniet auxí\textit{lium} \textbf{mi}hi.
+
+Auxílium meum a \textbf{Dó}mino, * qui fecit cae\textit{lum et} \textbf{ter}ram.
+
+Non det in commotiónem pedem \textbf{tu}um, * neque dormítet \textit{qui cus}\textbf{tó}dit te.
+
+Ecce non dormitábit neque \textbf{dór}miet, * qui cus\textit{tódit} \textbf{Is}raël.
+
+Dóminus custódit te~; Dóminus protéctio \textbf{tu}a, * super manum déx\textit{teram} \textbf{tu}am.
+
+Per diem sol non \textbf{u}ret te, * neque lu\textit{na per} \textbf{no}ctem.
+
+Dóminus custódit te ab omni \textbf{ma}lo~; * custódiat ánimam \textit{tuam} \textbf{Dó}minus.
+
+Dóminus custódiat introítum tuum et éxitum \textbf{tu}um, * ex hoc nunc et us\textit{que in} \textbf{saé}culum.
+
+Glória Patri et \textbf{Fí}lio * et Spirí\textit{tui} \textbf{San}cto.
+
+Sicut erat in princípio, et nunc et \textbf{sem}per * et in sáecula saecu\textit{lórum.} \textbf{A}men.
+
+
+
+\section{Psalm 121}
+
+%Laetatus sum in his quae dicta sunt mihi~: In domum Domini ibimus.
+
+Stantes erant pedes \textbf{no}stri, * in atriis tu\textit{is, Je}\textbf{rú}salem.
+
+Jerúsalem, quae aedificátur ut \textbf{cí}vitas, * cujus participátio ejus \textit{in i}\textbf{dí}psum.
+
+Illuc enim ascendérunt tribus, tribus \textbf{Dó}mini~: * testimónium Israël, ad confiténdum nó\textit{mini} \textbf{Dó}mini.
+
+Quia illic sedérunt sedes in ju\textbf{dí}cio, * sedes super \textit{domum} \textbf{Da}vid.
+
+Rogáte quae ad pacem sunt Je\textbf{rú}salem, * et abundántia dili\textit{génti}\textbf{bus} te.
+
+Fiat pax in virtúte \textbf{tu}a, * et abundántia in túr\textit{ribus} \textbf{tu}is.
+
+Propter fratres meos et próximos \textbf{me}os, * loquébar \textit{pacem} \textbf{de} te.
+
+Propter domum Dómini Dei \textbf{no}stri, * quaesívi \textit{bona} \textbf{ti}bi.
+
+Glória Patri et \textbf{Fí}lio * et Spirí\textit{tui} \textbf{San}cto.
+
+Sicut erat in princípio, et nunc et \textbf{sem}per * et in sáecula saecu\textit{lórum.} \textbf{A}men.
+
+
+
+
+
+\end{document}
+
