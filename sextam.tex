@@ -1,0 +1,217 @@
+\documentclass[a5paper,12pt,twoside,openany]{memoir}
+\usepackage[british,latin]{babel}
+\usepackage{fontspec}
+\defaultfontfeatures{Ligatures=TeX}
+\setmainfont[Numbers=OldStyle]{Linux Libertine O}
+%\setmainfont{EB Garamond}
+\newfontfamily{\anavio}{Linux Libertine O}
+%\newfontfamily{\vectis}{Vectis}
+\newfontface{\vectis}{Vectis Bold}
+\newfontface{\versicles}{Versiculum}
+\newfontface{\inglesh}{Worstveld Sling}
+%\usepackage{parallel}
+%\usepackage{lettrine}
+\newfontface{\cruci}{Juuji}
+\usepackage{gregoriotex}
+%\settrimmedsize{9in}{6in}{*}
+\setlength{\trimtop}{0pt}
+\setlength{\trimedge}{0pt}
+%\addtolength{\trimedge}{-\paperwidth}
+\settypeblocksize{170mm}{116mm}{*} % Was 101mm in a5
+\setulmargins{*}{*}{1.4}
+\setlrmargins{*}{*}{1.2}
+\setheadfoot{\onelineskip}{2\onelineskip}
+\setheaderspaces{*}{.8\onelineskip}{*}
+\checkandfixthelayout
+
+\tolerance=1000
+\pretolerance=800
+
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+\setlength{\parindent}{0pt}
+\setlength{\stanzaskip}{6pt plus 2pt minus 1pt}
+
+\newlength{\gcolwidth}
+\setlength{\gcolwidth}{0.48\textwidth}
+\newlength{\lcolwidth}
+\setlength{\lcolwidth}{0.53\textwidth}
+\newlength{\vcolwidth}
+\setlength{\vcolwidth}{0.43\textwidth}
+
+\renewcommand\gretranslationformat[1]{{\inglesh \fontsize{14}{10}\selectfont #1}}
+
+\setgrefactor{16}
+
+
+\newcounter{versecount}
+\setcounter{versecount}{0}
+
+\def\latin#1{\ifnum \value{versecount}>0 \stepcounter{versecount} \theversecount .~\fi\selectlanguage{latin}#1\selectlanguage{british}\\}
+\def\vern#1{{\inglesh \fontsize{14}{11}\selectfont #1}\par}
+
+\def\startParallel{}
+\def\stopParallel{}
+
+\setlength{\parskip}{3pt plus 2pt minus 1pt}
+
+\def\firstlatin#1#2#3{%
+\latin{%
+\noindent\begin{minipage}[t]{\ParallelLWidth}%
+\lettrine{#1}{#2}#3\strut%\vspace{0.9mm}\vspace{0.13cm}%
+\end{minipage}%
+}%
+%\vspace{-0.2cm}%
+}
+
+\def\firstvern#1#2#3{%
+\vern{%
+\noindent\begin{minipage}[t]{\ParallelRWidth}%
+\lettrine{#1}{#2}\gretranslationformat{#3}\strut%\vspace{0.9mm}\vspace{0.13cm}%
+\end{minipage}%
+}%\vspace{-0.2cm}%
+}
+
+\newcommand\maltese{{\tiny \cruci V}\ }
+
+\renewcommand\Vbar{\makebox[1em][l]{\versicles v}}
+\renewcommand\Rbar{\makebox[1em][l]{\versicles r}}
+
+\let\oldtextbf\textbf
+
+
+\newcommand\rubrics[1]{\textit{#1}}
+\newcommand\bibleref[2]{\oldtextbf{#1} \hfill \textit{#2}}
+\newcommand\psalm[1]{~ \hfill \oldtextbf{Psalm #1.} \hfill ~}
+
+\title{Ad Sextam}
+
+%\chapterstyle{thatcher}
+%\chapterstyle{dowding}
+\chapterstyle{dash}
+
+\begin{document}
+
+
+\nouppercaseheads
+\pagestyle{myheadings}
+
+\makeevenhead{myheadings}{\thepage}{\textsc{\leftmark}}{}
+\makeoddhead{myheadings}{}{\textsc{\rightmark}}{\thepage}
+
+\createmark{section}{right}{nonumber}{\sectionname}{}
+\createmark{chapter}{left}{nonumber}{\chaptername}{}
+
+\setcounter{secnumdepth}{0}
+
+
+\maketitle
+
+\tableofcontents
+
+\chapter{The beginning}
+\label{beginning}
+
+\bigskip
+
+\rubrics{Making the sign of the cross:}
+
+\includescore{deusinadjengl}
+
+\bigskip
+
+%\Vbar.\ O God, come to my assistance.
+
+%\Rbar.\ O Lord, make haste to help me.
+
+%Glory be\ldots
+
+%\newpage
+
+\section{Hymn}
+
+\gresetfirstlineaboveinitial{2}{2}
+\includescore{mementolit}
+
+
+%\newpage
+
+
+\section{Psalmody}
+
+\rubrics{Usually sit at the first asterisk for each psalm, rise at the asterisk for the last verse of the psalm ready to bow for the \emph{Gloria Patri}, upright for \emph{Sicut erat}, then remain standing until the first asterisk of the next psalm.}
+
+\rubrics{The antiphon varies for Advent (see page \pageref{missusest}) and Christmas (see page \pageref{oadmirabile}.) Otherwise as below.}
+
+\subsection{Per Annum.}
+
+\gresetfirstlineaboveinitial{4A}{4A}
+\includescore{gabc/an--in_odorem--solesmes}
+
+\subsubsection{Psalm 122}
+
+\includescore{gabc/ps122init}
+
+\setcounter{versecount}{1}
+\input psalms/122-4A
+
+\subsubsection{Psalm 123}
+
+\includescore{gabc/ps123init}
+
+\setcounter{versecount}{1}
+\input psalms/123-4A
+
+\subsubsection{Psalm 124}
+
+\includescore{gabc/ps124init}
+
+\setcounter{versecount}{1}
+\input psalms/124-4A
+
+\includescore{gabc/an--in--noincipit}
+
+\setcounter{versecount}{0}
+
+
+
+\section{Chapter}
+
+\includescore{etradicavi}
+
+\latin{\Vbar Benedicta tu in mulieribus.}\vern{Blessed art thou among women.}
+\latin{\Rbar Et benedictus fructus ventris tui.}\vern{And blessed is the fruit of thy womb.}
+
+\section{Collect}
+
+%\startParallel
+\latin{\Vbar Dómine, exaudi oratiónem meam.}
+\vern{O Lord, hear my prayer.}
+\latin{\Rbar Et clamor meus ad te véniat.}
+\vern{And let my cry come unto Thee.}
+\latin{Orémus.}
+\vern{Let us pray.}
+\latin{Conc\'ede, mis\'ericors Deus, fragilit\'ati nostr\ae \ pr\ae \-s\'\i \-dium : \dag \ 
+ut qui sanct\ae \ Dei Genitr\'\i cis mem\'oriam \'agimus, * 
+intercessi\'onis ejus aux\'\i lio, a nostris iniqui\-t\'a\-tibus resurg\'amus.
+Per eúmdem Dóminum nostrum Iesum Christum Filium tuum, qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum.}
+%Per e\'umdem Christum D\'ominum nostrum.}
+\vern{We beseech thee, O Lord, mercifully to assist our infirmity: that like as we do now commemorate Blessed Mary Ever-Virgin, Mother of God; so by the help of her intercession we may die to our former sins and rise again to newness of life. %Through the same Christ our Lord.}
+Through the same Jesus Christ, thy Son, Our Lord, Who liveth and reigneth with thee in the unity of the Holy Ghost, God, world without end.}
+\latin{\Rbar Amen.}
+\vern{Amen.}
+\latin{\Vbar Dómine, exaudi oratiónem meam.}
+\vern{O Lord, hear my prayer.}
+\latin{\Rbar Et clamor meus ad te véniat.}
+\vern{And let my cry come unto Thee.}
+\latin{\Vbar Benedicámus Dómino.}
+\vern{Let us bless the Lord.}
+\latin{\Rbar Deo grátias.}
+\vern{Thanks be to God.}
+\latin{\Vbar Fidélium ánimae per misericórdiam Dei requiéscant in pace.}\vern{May the souls of the faithful departed through the mercy of God rest in peace.}
+\latin{\Rbar Amen.}
+\vern{Amen.}
+%\stopParallel
+
+
+
+\end{document}
