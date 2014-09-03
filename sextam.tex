@@ -1,4 +1,4 @@
-\documentclass[a5paper,12pt,twoside,openany]{memoir}
+\documentclass[a4paper,12pt,twoside,openany]{memoir}
 \usepackage[british,latin]{babel}
 \usepackage{fontspec}
 \defaultfontfeatures{Ligatures=TeX}
@@ -17,7 +17,8 @@
 \setlength{\trimtop}{0pt}
 \setlength{\trimedge}{0pt}
 %\addtolength{\trimedge}{-\paperwidth}
-\settypeblocksize{170mm}{116mm}{*} % Was 101mm in a5
+%\settypeblocksize{170mm}{116mm}{*} % Was 101mm in a5
+\settypeblocksize{250mm}{140mm}{*} % Was 101mm in a5
 \setulmargins{*}{*}{1.4}
 \setlrmargins{*}{*}{1.2}
 \setheadfoot{\onelineskip}{2\onelineskip}
@@ -104,14 +105,16 @@
 \setcounter{secnumdepth}{0}
 
 
-\maketitle
+%\maketitle
 
-\tableofcontents
+%\tableofcontents
 
-\chapter{The beginning}
-\label{beginning}
+%\chapter{The beginning}
+%\label{beginning}
 
-\bigskip
+%\bigskip
+
+\section{Sextam - Midday Prayer}
 
 \rubrics{Making the sign of the cross:}
 
@@ -140,9 +143,9 @@
 
 \rubrics{Usually sit at the first asterisk for each psalm, rise at the asterisk for the last verse of the psalm ready to bow for the \emph{Gloria Patri}, upright for \emph{Sicut erat}, then remain standing until the first asterisk of the next psalm.}
 
-\rubrics{The antiphon varies for Advent (see page \pageref{missusest}) and Christmas (see page \pageref{oadmirabile}.) Otherwise as below.}
+%\rubrics{The antiphon varies for Advent (see page \pageref{missusest}) and Christmas (see page \pageref{oadmirabile}.) Otherwise as below.}
 
-\subsection{Per Annum.}
+%\subsection{Per Annum.}
 
 \gresetfirstlineaboveinitial{4A}{4A}
 \includescore{gabc/an--in_odorem--solesmes}
@@ -180,6 +183,9 @@
 
 \latin{\Vbar Benedicta tu in mulieribus.}\vern{Blessed art thou among women.}
 \latin{\Rbar Et benedictus fructus ventris tui.}\vern{And blessed is the fruit of thy womb.}
+
+%temporary, for a4 5 page version
+\newpage
 
 \section{Collect}
 
